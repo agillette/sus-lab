@@ -1,0 +1,95 @@
+{% block content %} 
+	<header class="page-header" id="news">
+		<div class="header-overlay"></div>
+		<div class="row clearfix">
+			<div class="column two-thirds">
+				<h2>Latest News and Updates from The Lab</h2>
+			</div>
+			<div class="column one-quarter push-1">
+				<!--<nav class="floating-page-nav">
+					<ul>
+						<li><a href="#">From The Field</a></li>
+						<li><a href="#">Good News</a></li>
+						<li><a href="#">Lab Notes</a></li>
+					</ul>
+				</nav>-->
+			</div>
+		</div>
+	</header>
+		<section class="page-content">
+		<div class="row clearfix">
+			<div class="column two-thirds">
+				<h2 class="news-intro">Recommended Reading</h2>
+				<article class="scroll-target news-item">
+					<span class="premise">The Sustainability Lab Notes</span>
+					<h3><a href="#">The Lab Website Gets a Makeover</a></h3>
+					<h4 class="short-desc">As you may have noticed, The Lab's website has gone through an incredible metamorphosis, thanks to the efforts of our Lab staff and our designers, Ashley Quinn and Andy Gillette of <a target="_blank" href="http://welessthanthree.com">We Less Than Three</a>.</h4>
+					<span class="byline">Written by Arielle Angel on July 14, 2014</span>
+				</article>
+				<article class="scroll-target news-item">
+					<span class="premise">Updates from the Field: Wadi Attir</span>
+					<h3><a href="#">Project Wadi Attirs Earth Mounds Beat the Storm </a></h3>
+					<h4 class="short-desc has-thumbnail"><img src="../assets/img/storm1-thumb.jpg" class="thumbnail">Late last year, the Negev got a record amount of rain. Over three days in December, 160 mm of rain, nearly 80% of the yearly average, was recorded in the area of the project site.</h4>
+					<span class="byline">Written by Arielle Angel on July 14, 2014</span>
+				</article>
+				<article class="scroll-target news-item">
+					<span class="premise">Updates from the Field: Global Sustainability Fellows</span>
+					<h3><a href="#">Visit to Martina Bustos: There are no "One-size-fits-all" Solutions</a></h3>
+					<h4 class="short-desc">This blog post was written by Assistant GSF Faculty Ana Laura Dengo, who recently visited the site of the GSF Program Fieldwork with Faculty member BK Singh and Assistant Faculty Jholenny Cordoba Chaves.</h4>
+					<span class="byline">Written by Ana Laura Dengo on February 18, 2014</span>
+				</article>
+			</div>
+			<div class="column one-quarter push-1" id="news-sidebar" style="padding-bottom:7em;">
+				<h2 class="news-intro">Latest Updates</h2>
+				<label for="category">Showing</label>
+				<select name="category" id="news-categories">
+					<option value="all">All News</option>
+					<option value="lnews">Lab News</option>
+					<option value="wanews">Wadi Attir</option>
+					<option value="gsfnews">GSF</option>
+					<option value="spnews">Sustainability Prize</option>
+				</select>
+				<hgroup class="blog-headline all gsfnews">
+					<h3><a href="#">GSF Pilot Session: Week 1 - Farms, theory and some chocolate</a></h3>
+					<a class="read-more" href="#">Continue reading &raquo;</a>
+				</hgroup>
+				<hgroup class="blog-headline lnews repeat">
+					<h3><a href="#">The Lab Website Gets a Makeover</a></h3>
+					<a class="read-more" href="#">Continue reading &raquo;</a>
+				</hgroup>
+				<hgroup class="blog-headline all gsfnews">
+					<h3><a href="#">First Group of Fellows Have Been Selected</a></h3>
+					<a class="read-more" href="#">Continue reading &raquo;</a>
+				</hgroup>
+				<hgroup class="blog-headline all wanews">
+					<h3><a href="#">Photography Workshop at Wadi Attir</a></h3>
+					<a class="read-more" href="#">Continue reading &raquo;</a>
+				</hgroup>
+				<hgroup class="blog-headline wanews repeat">
+					<h3><a href="#">Project Wadi Atti's Earth Mounds Beat the Storm</a></h3>
+					<a class="read-more" href="#">Continue reading &raquo;</a>
+				</hgroup>
+				<hgroup class="blog-headline all spnews">
+					<h3><a href="#">Sustainability Prize Renewed Until 2018!</a></h3>
+					<a class="read-more" href="#">Continue reading &raquo;</a>
+				</hgroup>
+				<hgroup class="blog-headline all gsfnews">
+					<h3><a href="#">The Travel Dilemma: Flying to a Sustainability Program?</a></h3>
+					<a class="read-more" href="#">Continue reading &raquo;</a>
+				</hgroup>
+				<hgroup class="blog-headline all gsfnews">
+					<h3><a href="#">Eco-Leadership and Eco-Literacy at the GSF Pilot</a></h3>
+					<a class="read-more" href="#">Continue reading &raquo;</a>
+				</hgroup>
+				<hgroup class="blog-headline gsfnews repeat">
+					<h3><a href="#">Visit to Martina Bustos: There are no "One-size-fits-all" Solutions</a></h3>
+					<a class="read-more" href="#">Continue reading &raquo;</a>
+				</hgroup>
+				<hgroup class="blog-headline lnews repeat"><a href="#" class="read-more">See All Lab News &raquo;</a></hgroup>
+				<hgroup class="blog-headline wanews repeat"><a href="#" class="read-more">See All Wadi Attir News &raquo;</a></hgroup>
+				<hgroup class="blog-headline gsfnews repeat"><a href="#" class="read-more">See All GSF News &raquo;</a></hgroup>
+				<hgroup class="blog-headline spnews repeat"><a href="#" class="read-more">See All Sustainability Prize News &raquo;</a></hgroup>
+			</div>
+		</div>
+	</section>
+{% endblock %}

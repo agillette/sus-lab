@@ -1,0 +1,144 @@
+﻿<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Title block allowing child pages to override -->
+		<title>The Sustainability Laboratory</title>
+		<link rel="shortcut icon" type="image/ico" href="../favicon.ico" />
+		<!-- Styles -->
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href="../assets/css/main.min.css" rel="stylesheet" type="text/css" media="all" />
+		<!-- Style block allowing child pages to inject their own styles -->
+		
+	</head>
+	<body>
+		<!-- Include -->
+		<header id="mainhead">
+	<h1 id="logo"><a href="../index.html">The Sustainability Laboratory</a></h1>
+	<nav id="mainnav">
+		<ul>
+			<li><a href="../about.html">About</a></li>
+			<li><a href="../approach.html">Approach</a></li>
+			<li><a href="../projects.html">Projects</a></li>
+			<li><a href="../news.html">News</a></li>
+			<li><a href="../connect.html">Connect</a></li>
+		</ul>
+	</nav>
+</header>
+		<!-- Content block, child page inject content -->
+		<p>Michael Ben Eli discusses the renaissance of the concept of "design" and how all aspects of human activity are manifestations of a design process and what that implies about our role as human beings on the planet.</p>
+<iframe src="//player.vimeo.com/video/12808820?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p>On June 3, 2010, the Buckminster Fuller Institute hosted "Architecting the Future" a day long gathering, as part of the 2010 Buckminster Fuller Challenge events in Washington DC.</p>
+		<!-- Script block allowing child pages to inject their own scripts -->
+		<footer id="mainfoot">
+	<div class="row clearfix">
+		<div class="one-quarter column">
+			<h3>Explore Our Projects</h3>
+			<ul>
+				<li><a href="../projects.html#wadi-attir">Project Wadi Attir</a></li>
+				<li><a href="../projects.html#gsf">Global Sustainability Fellowship</a></li>
+				<li><a href="../projects.html#susprize">The Sustainability Prize</a></li>
+			</ul>
+		</div>
+		<div class="one-quarter column">
+			<h3>About The Lab</h3>
+			<ul>
+				<li><a href="../about.html#mission">What We Do</a></li>
+				<li><a href="../about.html#founders">Our Founder</a></li>
+				<li><a href="../about.html#team">Meet The Team</a></li>
+			</ul>
+		</div>
+		<div class="one-quarter column">
+			<h3>Around The Web</h3>
+			<a href="https://twitter.com/TheLabNY" target="_blank"><i class="fa fa-twitter"></i></a>
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-instagram"></i>
+			<a href="http://vimeo.com/sustainabilitylab" target="_blank"><i class="fa fa-vimeo-square"></i></a>
+			<i class="fa fa-linkedin"></i>
+			<div class="tweet">
+				<p>The Sustainability Laboratory is on Twitter! New website coming soon! Stay tuned!<span class="timestamp"><a href="https://twitter.com/TheLabNY/status/484064480721375233" target="_blank">@TheLabNY - 1 Jul 2014</a></span></p>
+			</div>
+		</div>
+		<div class="one-quarter column">
+			<h3>Connect With Us</h3>
+			<form action="../index.html">
+				<label for="email">Sign up for our newsletter</label>
+				<input type="text" placeholder="email address" />
+			</form>
+			<ul><li><a href="../connect.html">Send us a message</a></li></ul>
+		</div>
+	</div>
+</footer>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="../assets/scripts/typed.min.js"></script>
+		
+		<script src="app.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var navWidth = 0;
+				$('#mainnav li').each(function(){
+					navWidth += $(this).width();
+				});
+				$('#mainnav').width(navWidth+12);
+				$('.floating-page-nav a').click(function(e){
+					var scrollTo = $(this).attr('href');
+					scrollTo = $(scrollTo).offset().top;
+					$('html, body').animate({ scrollTop: scrollTo-60 }, 400);
+				})
+				if( $('.floating-page-nav').length ){
+					var menuTop = $('.floating-page-nav').offset().top;
+				}else{
+					var menuTop = false;
+				}
+				$('#news-sidebar .repeat').hide();
+				$('#news-categories').change(function(){
+					var eval = $(this).val();
+					$('#news-sidebar .blog-headline').each(function(){
+						if(!$(this).hasClass(eval)) {
+							$(this).hide();
+						}
+						else {
+							$(this).fadeIn();
+						}
+					});
+				});
+				$(window).scroll(function(){
+					if(menuTop) {
+						if( $(window).scrollTop() > menuTop ){
+							$('.floating-page-nav').addClass('floating');
+						}
+						else{
+							$('.floating-page-nav').removeClass('floating');
+						}
+					}
+					if( $(window).scrollTop() > 100 ){
+						$('#mainhead nav').width(0);
+						$('#mainhead').hover(function(){
+							$('#mainhead nav').width(navWidth+12);
+						}, function(){
+							$('#mainhead nav').width(0);
+						});
+					}
+					else{
+						$('#mainhead nav').width(navWidth + 12);
+					}
+					if( $('.scroll-target').length ){
+						$('.scroll-target').each(function(){
+							var gotMe = $(this).offset().top;
+							var gotEnd = gotMe + $(this).height();
+							var id = $(this).attr('id');
+							if( $(window).scrollTop() > (gotMe-100) && $(window).scrollTop() < (gotEnd-100) )
+							{
+								$('.floating-page-nav .current').removeClass('current');
+								$('.floating-page-nav a[href="#'+id+'"]').addClass('current');
+							}
+						});
+						if( $(window).scrollTop() < 100 ){
+							$('.floating-page-nav .current').removeClass('current');
+						}
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
