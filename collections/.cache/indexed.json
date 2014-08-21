@@ -1,0 +1,170 @@
+{
+  "news": {
+    "index": {
+      "transliterated-tags": {
+        "design": [
+          "/news/architecting-the-future"
+        ],
+        "buckminster-fuller": [
+          "/news/architecting-the-future"
+        ],
+        "video": [
+          "/news/architecting-the-future"
+        ],
+        "global-sustainability-fellows": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ],
+        "michael-ben-eli": [
+          "/news/architecting-the-future"
+        ],
+        "gsf": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ]
+      },
+      "transliterated-slug": {
+        "/news/first-group-of-fellows-have-been-selected": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ],
+        "/news/architecting-the-future": [
+          "/news/architecting-the-future"
+        ]
+      },
+      "tags": {
+        "design": [
+          "/news/architecting-the-future"
+        ],
+        "buckminster fuller": [
+          "/news/architecting-the-future"
+        ],
+        "video": [
+          "/news/architecting-the-future"
+        ],
+        "global sustainability fellows": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ],
+        "michael ben eli": [
+          "/news/architecting-the-future"
+        ],
+        "gsf": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ]
+      },
+      "month": {
+        "02": [
+          "/news/architecting-the-future"
+        ],
+        "06": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ]
+      },
+      "year": {
+        "2014": [
+          "/news/first-group-of-fellows-have-been-selected",
+          "/news/architecting-the-future"
+        ]
+      },
+      "slug": {
+        "/news/first-group-of-fellows-have-been-selected": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ],
+        "/news/architecting-the-future": [
+          "/news/architecting-the-future"
+        ]
+      },
+      "mixture_date": {
+        "2014-06-03t10:33:00": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ],
+        "2014-02-27t06:33:00": [
+          "/news/architecting-the-future"
+        ]
+      },
+      "mixture_month_year": {
+        "02/2014": [
+          "/news/architecting-the-future"
+        ],
+        "06/2014": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ]
+      },
+      "title": {
+        "first group of fellows have been selected!": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ],
+        "architecting the future -- key note": [
+          "/news/architecting-the-future"
+        ]
+      },
+      "ticks": {
+        "1393482780.0": [
+          "/news/architecting-the-future"
+        ],
+        "1401791580.0": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ]
+      },
+      "category": {
+        "notes": [
+          "/news/architecting-the-future"
+        ],
+        "updates": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ]
+      },
+      "transliterated-title": {
+        "architecting-the-future----key-note": [
+          "/news/architecting-the-future"
+        ],
+        "first-group-of-fellows-have-been-selected": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ]
+      },
+      "transliterated-category": {
+        "notes": [
+          "/news/architecting-the-future"
+        ],
+        "updates": [
+          "/news/first-group-of-fellows-have-been-selected"
+        ]
+      }
+    },
+    "collection": {
+      "/news/first-group-of-fellows-have-been-selected": {
+        "published": true,
+        "body": "<p>It is our honor to announce that the first cohort of Global Sustainability Fellows has been selected, with representation from five continents. By the mid-night application closing deadline, the program received applications from 20 countries, including: Australia, Canada, Dominican Republic, Ethiopia, Germany, Hungary, India, Ireland, Israel, Kenya, Mexico, Netherlands, Nigeria, Norway, Peru, Philippines, Portugal, Sweden, Switzerland, and the US.</p>\r\n<p>Quality of the application is such that evaluation and selection for the 20 spots we can offer was a tough process. All candidates were strong, and it was an honor to read about their unique backgrounds. We are looking forward to an amazing program and will continue to update everyone here on the GSF Blog. If you applied and did not get in, or missed the deadline, we urge you to try again next year and keep up with the GSF as we lead our first Summer of this new initiative.</p>\r\n<p>Fondly,<br>\r\nGSF Team</p>",
+        "tags": [
+          "GSF",
+          "Global Sustainability Fellows"
+        ],
+        "year": "2014",
+        "month": "06",
+        "mixture_date": "2014-06-03T10:33:00",
+        "slug": "/news/first-group-of-fellows-have-been-selected",
+        "mixture_month_year": "06/2014",
+        "ticks": 1401791580.0,
+        "title": "First Group of Fellows Have Been Selected!",
+        "date": "Tue Jun 03 10:33:00 UTC 2014",
+        "category": "updates"
+      },
+      "/news/architecting-the-future": {
+        "published": true,
+        "body": "<p>Michael Ben Eli discusses the renaissance of the concept of \"design\" and how all aspects of human activity are manifestations of a design process and what that implies about our role as human beings on the planet.</p>\r\n<iframe src=\"//player.vimeo.com/video/12808820?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\r\n<p>On June 3, 2010, the Buckminster Fuller Institute hosted \"Architecting the Future\" a day long gathering, as part of the 2010 Buckminster Fuller Challenge events in Washington DC.</p>",
+        "tags": [
+          "Michael Ben Eli",
+          "video",
+          "design",
+          "Buckminster Fuller"
+        ],
+        "year": "2014",
+        "month": "02",
+        "mixture_date": "2014-02-27T06:33:00",
+        "slug": "/news/architecting-the-future",
+        "mixture_month_year": "02/2014",
+        "ticks": 1393482780.0,
+        "title": "Architecting the Future -- Key Note",
+        "date": "Thu Feb 27 06:33:00 UTC 2014",
+        "category": "notes"
+      }
+    }
+  }
+}
