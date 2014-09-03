@@ -181,7 +181,7 @@ textarea {
   transition: height 0.3s; }
 
 input:focus, textarea:focus {
-  border-color: #aadf02;
+  border-color: #3c7962;
   outline: none; }
 
 label {
@@ -398,7 +398,7 @@ form {
       text-indent: -9999px;
       width: 3.4375em;
       height: 3.4375em;
-      background: url(../img/logo-sm-grey.png) center center no-repeat #aadf02;
+      background: url(../img/logo-sm-grey.png) center center no-repeat #3c7962;
       background-size: cover; }
   #mainhead nav {
     width: 34em;
@@ -939,10 +939,10 @@ blockquote {
     letter-spacing: 0.1em;
     font-size: 0.8125em; }
     .link-divider p a {
-      color: #aadf02;
+      color: #3c7962;
       text-decoration: none;
       padding-bottom: 0.25em;
-      border-bottom: 1px solid #aadf02; }
+      border-bottom: 1px solid #3c7962; }
 
 .project-link {
   margin-bottom: 0;
