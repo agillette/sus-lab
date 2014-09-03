@@ -335,11 +335,6 @@
 		<script src="app.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
-				var navWidth = 0;
-				$('#mainnav li').each(function(){
-					navWidth += $(this).width();
-				});
-				$('#mainnav').width(navWidth+12);
 				$('.floating-page-nav a').click(function(e){
 					var scrollTo = $(this).attr('href');
 					scrollTo = $(scrollTo).offset().top;
@@ -363,6 +358,7 @@
 					});
 				});
 				$(window).scroll(function(){
+					$('body').addClass('scrolling');
 					if(menuTop) {
 						if( $(window).scrollTop() > menuTop ){
 							$('.floating-page-nav').addClass('floating');
@@ -372,15 +368,15 @@
 						}
 					}
 					if( $(window).scrollTop() > 100 ){
-						$('#mainhead nav').width(0);
+						$('#mainhead nav').addClass('collapsed');
 						$('#mainhead').hover(function(){
-							$('#mainhead nav').width(navWidth+12);
+							$('#mainhead nav').removeClass('collapsed');
 						}, function(){
-							$('#mainhead nav').width(0);
+							$('#mainhead nav').addClass('collapsed');
 						});
 					}
 					else{
-						$('#mainhead nav').width(navWidth + 12);
+						$('#mainhead nav').removeClass('collapsed');
 					}
 					if( $('.scroll-target').length ){
 						$('.scroll-target').each(function(){
@@ -398,6 +394,19 @@
 						}
 					}
 				});
+			});
+			$.fn.scrollStopped = function(callback) {           
+        $(this).scroll(function(){
+            var self = this, $this = $(self);
+            if ($this.data('scrollTimeout')) {
+              clearTimeout($this.data('scrollTimeout'));
+            }
+            $this.data('scrollTimeout', setTimeout(callback,250,self));
+        });
+			};
+
+			$(window).scrollStopped(function(){
+					$('body').removeClass('scrolling');
 			});
 		</script>
 	</body>
