@@ -37,6 +37,7 @@
 				<nav class="floating-page-nav">
 					<ul>
 						<li><a href="#mission">What We Do</a></li>
+						<li><a href="#areas">Areas of Activity</a></li>
 						<li><a href="#founders">Founder</a></li>
 						<li><a href="#team">Meet The Team</a></li>
 					</ul>
@@ -54,6 +55,24 @@
 					<p>To guide its activities, The Lab has developed its own unique, action-oriented <a href="../approach.html">conceptual framework</a>. Inspired by the work of innovative thinkers such as Buckminster Fuller and Stafford Beer, and synthesized by Dr. Ben-Eli, The Lab's signature approach is rooted in a system-oriented design strategy, integrating a rigorous definition of sustainability and a derived set of core principles. We favor approaches that take a global perspective, and feature cross-sector and cross-disciplinary collaboration.</p>
 					<img class="article-img-right" src="assets/img/MedicinalPlantsExperiment.jpg">
 					<p>Applying this holistic framework, The Lab engages in research, development, and education activities focused around key sustainability-related issues. Our growing portfolio of projects demonstrate cutting edge, model approaches to sustainability challenges, applicable on a local, regional, and planetary scale. This is best exemplified by the progress of The Lab's flagship project, <a href="../projects.html">Project Wadi Attir</a>, a Bedouin-led sustainable development project in the Negev desert.</p>
+				</article>
+				<article class="scroll-target clearfix">
+				<p class="intro"><em>The Lab's mission is to act as a catalyst for accelerating the transition of world’s society and its economy to a sustainable basis by researching, developing, demonstrating and facilitating adoption of breakthrough sustainability practices, thereby expanding prospects, and producing positive, life-affirming impacts on people and ecosystems in all parts of the world.</em></p>
+				</article>
+				<article class="scroll-target clearfix" id="areas">
+				<h3>Areas of Activity</h3>
+				<p>The Lab’s work will focus on four interrelated areas of activity that are essential for catalyzing deep change: Development Projects, Technology Innovations, Green Financing, and Education.</p>
+				<ul>
+					<li>Development Projects: While most sustainability-related projects today tend to be sector or issue specific, development projects are comprehensive and multifaceted by nature. The ability to employ a holistic, system-based approach to development is critical for ensuring lasting, positive effects.<br>
+					<em>The Lab will conceive, design and implement groundbreaking, model development projects that integrate all the interdependent dimensions of sustainability in a holistic, practical and impactful way.</em></li>
+					<li>Technology Innovations: As has been the case throughout history, technological innovations will continue to underlie the evolution of society. Low-technology approaches have an important role to play, particularly in less developed areas of the world and in the short to medium term. Ultimately, however, it will be radical advances in science and disruptive new technologies which will play a vital role in driving change.<br>
+					<em>he Lab will stimulate development of cutting edge sustainability-enhancing technologies, and facilitate the prototyping of integrated green technology applications on the ground.</em></li>
+					<li>Green Financing: Economic activity which ignores true costs continues to drive markets in directions that produce multiple adverse impacts. Introducing new models and new financial instruments in order to reorient economic activity is fundamental to ensuring appropriate change.<br>
+					<em>The Lab will research, develop and experiment with new financial instruments that incorporate true cost calculations and account for externalities. It will assist in tailoring financial strategies for the realization of specific sustainable development goals.</em></li>
+					<li>Education: Broad-based sustainability literacy is an essential component of the necessary paradigm shift. The message must become a part of humanity's innermost consciousness in order for change to be lasting.<br>
+					<em>The Lab will engage in a variety of educational activities including the creation of training programs for leaders in business and government, the development of special programs for students at all levels, and the dissemination of scientific research and other sustainability-related materials, both for professionals in the field and for the general public.</em></li>
+				</ul>
+				<p>These four main areas of activity will be designed to reinforce one another, thus amplifying the cumulative impacts of Lab initiatives.</p>
 				</article>
 				<article class="scroll-target clearfix" id="founders">
 					<h3>The Lab's founder, Dr. Michael Ben-Eli</h3>
@@ -688,11 +707,6 @@
 		<script src="app.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
-				var navWidth = 0;
-				$('#mainnav li').each(function(){
-					navWidth += $(this).width();
-				});
-				$('#mainnav').width(navWidth+12);
 				$('.floating-page-nav a').click(function(e){
 					var scrollTo = $(this).attr('href');
 					scrollTo = $(scrollTo).offset().top;
@@ -716,6 +730,7 @@
 					});
 				});
 				$(window).scroll(function(){
+					$('body').addClass('scrolling');
 					if(menuTop) {
 						if( $(window).scrollTop() > menuTop ){
 							$('.floating-page-nav').addClass('floating');
@@ -725,15 +740,15 @@
 						}
 					}
 					if( $(window).scrollTop() > 100 ){
-						$('#mainhead nav').width(0);
+						$('#mainhead nav').addClass('collapsed');
 						$('#mainhead').hover(function(){
-							$('#mainhead nav').width(navWidth+12);
+							$('#mainhead nav').removeClass('collapsed');
 						}, function(){
-							$('#mainhead nav').width(0);
+							$('#mainhead nav').addClass('collapsed');
 						});
 					}
 					else{
-						$('#mainhead nav').width(navWidth + 12);
+						$('#mainhead nav').removeClass('collapsed');
 					}
 					if( $('.scroll-target').length ){
 						$('.scroll-target').each(function(){
@@ -751,6 +766,19 @@
 						}
 					}
 				});
+			});
+			$.fn.scrollStopped = function(callback) {           
+        $(this).scroll(function(){
+            var self = this, $this = $(self);
+            if ($this.data('scrollTimeout')) {
+              clearTimeout($this.data('scrollTimeout'));
+            }
+            $this.data('scrollTimeout', setTimeout(callback,250,self));
+        });
+			};
+
+			$(window).scrollStopped(function(){
+					$('body').removeClass('scrolling');
 			});
 		</script>
 	</body>

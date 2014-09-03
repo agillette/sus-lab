@@ -48,7 +48,9 @@
 		<div class="row clearfix">
 			<div class="column two-thirds push-2">
 				<article class="home-section">
-					<p class="intro">At The Sustainability Laboratory, we work to address urgent sustainability challenges facing the planet by creating effective tools for catalyzing radical change.</p>
+					<p class="intro">Transforming world society to a sustainable basis is the most significant challenge of our time.</p>
+					<p>This challenge is unprecedented in scope, calling for a fresh vision, accounting for the whole planet and all of humankind. </p>
+					<p>At The Sustainability Laboratory, we work to address urgent sustainability challenges facing the planet by creating and demonstrating effective tools for catalyzing radical change.</p>
 				</article>
 			</div>
 		</div>
@@ -291,6 +293,7 @@
 			</div>
 		</div>
 	</section>
+	<a id="down-arrow" class="bounce" href="#"><i class="fa fa-arrow-down"></i></a>
 
 		<!-- Script block allowing child pages to inject their own scripts -->
 		<footer id="mainfoot">
@@ -364,11 +367,6 @@
 		<script src="app.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
-				var navWidth = 0;
-				$('#mainnav li').each(function(){
-					navWidth += $(this).width();
-				});
-				$('#mainnav').width(navWidth+12);
 				$('.floating-page-nav a').click(function(e){
 					var scrollTo = $(this).attr('href');
 					scrollTo = $(scrollTo).offset().top;
@@ -392,6 +390,7 @@
 					});
 				});
 				$(window).scroll(function(){
+					$('body').addClass('scrolling');
 					if(menuTop) {
 						if( $(window).scrollTop() > menuTop ){
 							$('.floating-page-nav').addClass('floating');
@@ -401,15 +400,15 @@
 						}
 					}
 					if( $(window).scrollTop() > 100 ){
-						$('#mainhead nav').width(0);
+						$('#mainhead nav').addClass('collapsed');
 						$('#mainhead').hover(function(){
-							$('#mainhead nav').width(navWidth+12);
+							$('#mainhead nav').removeClass('collapsed');
 						}, function(){
-							$('#mainhead nav').width(0);
+							$('#mainhead nav').addClass('collapsed');
 						});
 					}
 					else{
-						$('#mainhead nav').width(navWidth + 12);
+						$('#mainhead nav').removeClass('collapsed');
 					}
 					if( $('.scroll-target').length ){
 						$('.scroll-target').each(function(){
@@ -427,6 +426,19 @@
 						}
 					}
 				});
+			});
+			$.fn.scrollStopped = function(callback) {           
+        $(this).scroll(function(){
+            var self = this, $this = $(self);
+            if ($this.data('scrollTimeout')) {
+              clearTimeout($this.data('scrollTimeout'));
+            }
+            $this.data('scrollTimeout', setTimeout(callback,250,self));
+        });
+			};
+
+			$(window).scrollStopped(function(){
+					$('body').removeClass('scrolling');
 			});
 		</script>
 	</body>
