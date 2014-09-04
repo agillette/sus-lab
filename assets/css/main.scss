@@ -260,6 +260,16 @@ form {
 	margin-bottom: 3.5em;
 }
 
+hr.light-divider {
+	width: 50%;
+	margin: 2em auto;
+	display: block;
+	height: 0;
+	border: none;
+	background: transparent;
+	border-top: 1px solid darken($white, 10%);
+}
+
 .slider-module {
 	height: 1%;
 	overflow: hidden;
@@ -375,6 +385,19 @@ form {
 	.viewport {
 		height: 25em;
 		background: #fff;
+	}
+}
+
+#about-content .slider-module {
+	.viewport {
+		height: 20em;
+		.overview {
+			li {
+				height: 16em;
+				width: 37.45em;
+				margin: 2em 3.5em;
+			}
+		}
 	}
 }
 

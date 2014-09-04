@@ -99,7 +99,7 @@ img {
   max-width: 100%; }
 
 a {
-  color: #c5533a; }
+  color: #C5533A; }
 
 select {
   -webkit-border-radius: 0.2em;
@@ -154,7 +154,7 @@ img.round {
   background-color: rgba(134, 101, 100, 0.1); }
 
 .flat-button.primary {
-  color: #c5533a !important; }
+  color: #C5533A !important; }
 
 .raised-button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 5px rgba(0, 0, 0, 0.12);
@@ -169,7 +169,7 @@ img.round {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.24), 0 3px 10px rgba(0, 0, 0, 0.12); }
 
 .raised-button.primary {
-  background: #c5533a; }
+  background: #C5533A; }
 
 input[type="text"], input[type="email"], textarea {
   padding-top: 1em;
@@ -201,6 +201,15 @@ button[type="submit"] {
 
 form {
   margin-bottom: 3.5em; }
+
+hr.light-divider {
+  width: 50%;
+  margin: 2em auto;
+  display: block;
+  height: 0;
+  border: none;
+  background: transparent;
+  border-top: 1px solid #d9d9d9; }
 
 .slider-module {
   height: 1%;
@@ -303,6 +312,13 @@ form {
   height: 25em;
   background: #fff; }
 
+#about-content .slider-module .viewport {
+  height: 20em; }
+  #about-content .slider-module .viewport .overview li {
+    height: 16em;
+    width: 37.45em;
+    margin: 2em 3.5em; }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -380,7 +396,7 @@ form {
           color: #e6c7a4;
           transition: color 0.3s; }
         #sitehead nav ul li a:hover {
-          color: #c5533a; }
+          color: #C5533A; }
 
 #mainhead {
   background: #866564;
@@ -699,7 +715,7 @@ form {
         font-weight: 700; }
     .page-content .blog-headline .read-more {
       display: block;
-      color: #c5533a;
+      color: #C5533A;
       text-decoration: none;
       font-size: 0.6em;
       text-transform: uppercase;
@@ -723,7 +739,7 @@ form {
     padding: 0 0.5em 0.25em 0.5em;
     margin: 0 0.25em; }
   .inline-tabs .tab-link.current-tab {
-    border-color: #c5533a; }
+    border-color: #C5533A; }
 
 .tab-content {
   display: none; }
@@ -774,7 +790,7 @@ form {
       position: absolute;
       top: 0;
       left: 0;
-      background: #c5533a;
+      background: #C5533A;
       color: #fff;
       text-decoration: none;
       display: block;
@@ -869,7 +885,7 @@ blockquote {
   .card .media-area {
     height: 12.5em;
     overflow: hidden;
-    background: #c5533a;
+    background: #C5533A;
     position: relative; }
     .card .media-area img {
       position: absolute;
@@ -994,7 +1010,7 @@ blockquote {
       -moz-background-clip: padding;
       background-clip: padding-box;
       display: block;
-      background: #c5533a;
+      background: #C5533A;
       width: 18.8462em;
       padding: 1em 0;
       font-size: 0.8125em;
@@ -1196,13 +1212,11 @@ blockquote {
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0); }
-
   40% {
     -webkit-transform: translateY(-20px);
     -moz-transform: translateY(-20px);
     -ms-transform: translateY(-20px);
     transform: translateY(-20px); }
-
   60% {
     -webkit-transform: translateY(-16px);
     -moz-transform: translateY(-16px);
@@ -1214,13 +1228,11 @@ blockquote {
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0); }
-
   40% {
     -webkit-transform: translateY(-20px);
     -moz-transform: translateY(-20px);
     -ms-transform: translateY(-20px);
     transform: translateY(-20px); }
-
   60% {
     -webkit-transform: translateY(-16px);
     -moz-transform: translateY(-16px);
@@ -1232,13 +1244,11 @@ blockquote {
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0); }
-
   40% {
     -webkit-transform: translateY(-20px);
     -moz-transform: translateY(-20px);
     -ms-transform: translateY(-20px);
     transform: translateY(-20px); }
-
   60% {
     -webkit-transform: translateY(-16px);
     -moz-transform: translateY(-16px);
@@ -1250,13 +1260,11 @@ blockquote {
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     transform: translateY(0); }
-
   40% {
     -webkit-transform: translateY(-20px);
     -moz-transform: translateY(-20px);
     -ms-transform: translateY(-20px);
     transform: translateY(-20px); }
-
   60% {
     -webkit-transform: translateY(-16px);
     -moz-transform: translateY(-16px);
