@@ -40,5 +40,11 @@
         "name": "Projects lab centers",
         "url": "/projects-lab-centers",
         "directory": false
+    },
+    {
+        "key": "team",
+        "name": "Team",
+        "url": "/team",
+        "directory": false
     }
 ]
