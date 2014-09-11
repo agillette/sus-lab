@@ -1,4 +1,10 @@
 /* Colors */
+/* font color and nav hover */
+/* nav */
+/* highlight font */
+/* background */
+/* dark green */
+/* boxes and highlights */
 /* mixins */
 /* grid */
 *, *:before, *:after {
@@ -196,6 +202,15 @@ button[type="submit"] {
 form {
   margin-bottom: 3.5em; }
 
+hr.light-divider {
+  width: 50%;
+  margin: 2em auto;
+  display: block;
+  height: 0;
+  border: none;
+  background: transparent;
+  border-top: 1px solid #d9d9d9; }
+
 .slider-module {
   height: 1%;
   overflow: hidden;
@@ -296,6 +311,13 @@ form {
 #cp-slider .viewport {
   height: 25em;
   background: #fff; }
+
+#about-content .slider-module .viewport {
+  height: 20em; }
+  #about-content .slider-module .viewport .overview li {
+    height: 16em;
+    width: 37.45em;
+    margin: 2em 3.5em; }
 
 .overlay {
   position: absolute;
@@ -1042,6 +1064,34 @@ blockquote {
           position: absolute;
           top: 0;
           left: 0; }
+
+/* approach */
+#core-principals .scroll-target img {
+  float: left;
+  margin-left: -12%;
+  width: 10%;
+  margin-top: -1.5em; }
+#core-principals .scroll-target .fa-ul {
+  margin-left: 0; }
+  #core-principals .scroll-target .fa-ul li {
+    margin-bottom: 0.6em;
+    line-height: 1.6; }
+    #core-principals .scroll-target .fa-ul li i {
+      margin-right: 1em; }
+
+/* contact */
+#contactthelab .card .media-area {
+  height: 9em; }
+#contactthelab .card p {
+  height: 10em; }
+
+.call-out {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 0.125em; }
+  .call-out h4 {
+    margin-top: 0; }
 
 /* footer */
 #mainfoot {

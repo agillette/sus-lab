@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 	<head>
 		<!-- Title block allowing child pages to override -->
@@ -7,7 +7,7 @@
 		<!-- Styles -->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-		<link href="assets/css/main.min.css" rel="stylesheet" type="text/css" media="all"/>
+		<link href="assets/css/main.min.css" rel="stylesheet" type="text/css" media="all" />
 		<!-- Style block allowing child pages to inject their own styles -->
 		
 	</head>
@@ -54,11 +54,11 @@
 						<div class="column one-half">
 							<form action="index.html">
 								<label for="name">Full Name</label>
-								<input type="text" placeholder="John Q. Public" name="name">
+								<input type="text" name="name">
 								<label for="email">Email Address</label>
 								<input type="email" name="email" placeholder="example@example.com">
 								<label for="subject">Subject</label>
-								<input type="text" name="subject" placeholder="I love The Sustainability Laboratory">
+								<input type="text" name="subject">
 								<label for="message">Message</label>
 								<textarea name="message" id="" cols="30" rows="10"></textarea>
 								<button class="button raised-button primary" type="submit">Send Message</button>
@@ -100,20 +100,22 @@
 						</div>
 					</div>
 				</article>
-				<article class="scroll-target news-item" id="support">
+				<article class="scroll-target" id="support">
 					<h3>Support the Lab</h3>
 					<p>As a non-profit organization, The Sustainability Laboratory relies on contributions from individuals, corporations, and foundations to make our work in sustainability innovations possible. Gifts at every level make a difference and are 100% tax-deductible.</p>
-					<h3>Donate Online</h3>
+					<h4>Donate Online</h4>
 					<p>Online donations to The Sustainability Laboratory support our mission and ensure we have the resources needed to provide infrastructural support to our many projects, and to develop new projects which address key sustainability challenges in the world at large. Please select below to make a one-time donation or monthly gift.</p>
-					<p>Thank You for Your Support!</p>
-					<a class="button raised-button primary" href="#">One-time Donation</a><a class="button raised-button primary" href="#">Recurring Donation</a>
-					<h3 style="margin-top: 1.5em;">Write a Check</h3>
+					<div class="call-out">
+						<h4>Thank You for Your Support!</h4>
+						<a class="button raised-button primary" href="#">One-time Donation</a><a class="button raised-button primary" href="#">Recurring Donation</a>
+					</div>
+					<h4 style="margin-top: 1.5em;">Write a Check</h4>
 					<p>The Sustainability Laboratory<br />
 						229 East 85th Street<br />
 						PO Box 1571<br />
 						New York, NY 10028
 					</p>
-					<h3>Wire Transfers</h3>
+					<h4>Wire Transfers</h4>
 					For information on setting up a wire transfer, email <a href="mailto:arielle@sustainabilitylabs.org">arielle@sustainabilitylabs.org</a>.
 				</article>
 			</div>

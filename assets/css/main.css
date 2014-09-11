@@ -1065,6 +1065,34 @@ blockquote {
           top: 0;
           left: 0; }
 
+/* approach */
+#core-principals .scroll-target img {
+  float: left;
+  margin-left: -12%;
+  width: 10%;
+  margin-top: -1.5em; }
+#core-principals .scroll-target .fa-ul {
+  margin-left: 0; }
+  #core-principals .scroll-target .fa-ul li {
+    margin-bottom: 0.6em;
+    line-height: 1.6; }
+    #core-principals .scroll-target .fa-ul li i {
+      margin-right: 1em; }
+
+/* contact */
+#contactthelab .card .media-area {
+  height: 9em; }
+#contactthelab .card p {
+  height: 10em; }
+
+.call-out {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 0.125em; }
+  .call-out h4 {
+    margin-top: 0; }
+
 /* footer */
 #mainfoot {
   background: #332f38;

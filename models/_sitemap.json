@@ -18,6 +18,12 @@
         "directory": false
     },
     {
+        "key": "approach-principles",
+        "name": "Approach principles",
+        "url": "/approach-principles",
+        "directory": false
+    },
+    {
         "key": "connect",
         "name": "Connect",
         "url": "/connect",
