@@ -1,44 +1,56 @@
 [
-  {
-    "directory": false,
-    "key": "index",
-    "name": "Index",
-    "url": "/index"
-  },
-  {
-    "directory": false,
-    "key": "about",
-    "name": "About",
-    "url": "/about"
-  },
-  {
-    "directory": false,
-    "key": "approach",
-    "name": "Approach",
-    "url": "/approach"
-  },
-  {
-    "directory": false,
-    "key": "connect",
-    "name": "Connect",
-    "url": "/connect"
-  },
-  {
-    "directory": false,
-    "key": "news",
-    "name": "News",
-    "url": "/news"
-  },
-  {
-    "directory": false,
-    "key": "projects",
-    "name": "Projects",
-    "url": "/projects"
-  },
-  {
-    "directory": false,
-    "key": "projects-lab-centers",
-    "name": "Projects Lab Centers",
-    "url": "/projects-lab-centers"
-  }
+    {
+        "key": "index",
+        "name": "Index",
+        "url": "/index",
+        "directory": false
+    },
+    {
+        "key": "about",
+        "name": "About",
+        "url": "/about",
+        "directory": false
+    },
+    {
+        "key": "approach",
+        "name": "Approach",
+        "url": "/approach",
+        "directory": false
+    },
+    {
+        "key": "approach-principles",
+        "name": "Approach principles",
+        "url": "/approach-principles",
+        "directory": false
+    },
+    {
+        "key": "connect",
+        "name": "Connect",
+        "url": "/connect",
+        "directory": false
+    },
+    {
+        "key": "news",
+        "name": "News",
+        "url": "/news",
+        "directory": false
+    },
+    {
+        "key": "projects",
+        "name": "Projects",
+        "url": "/projects",
+        "directory": false
+    },
+    {
+        "key": "projects-lab-centers",
+        "name": "Projects lab centers",
+        "url": "/projects-lab-centers",
+        "directory": false
+    },
+    {
+        "key": "team",
+        "name": "Team",
+        "url": "/team",
+        "directory": false
+    }
 ]

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Title block allowing child pages to override -->
+		<title>{% block title %}{% endblock %}The Sustainability Laboratory</title>
+		<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+		<!-- Styles -->
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		{{ "main.css" | asset_url | stylesheet_tag }}
+		<!-- Style block allowing child pages to inject their own styles -->
+		{% block styles %}{% endblock %}
+	</head>
+	<body>
+		<!-- Include -->
+		{% include "header" %}
+		{% assign post = model %}
+	{% if post.has-header == 1 %}
+	<header class="page-header" style="background:url({{ post.header-img}}) center center no-repeat;background-size:cover;background-attachment:fixed;">
+	{% else %}
+	<header class="page-header no-image">
+	{% endif %}
+	<div class="header-overlay"></div>
+		<div class="row clearfix">
+			<div class="column two-thirds">
+				<h2>{{ post.title }}<br><small>{{ post.subtitle }}</small></h2>
+			</div>
+		</div>
+	</header>
+	<section class="page-content">
+		<div class="row clearfix">
+			<div class="column two-thirds">
+				<article class="scroll-target news-single">
+		<!-- Content block, child page inject content -->
+		{% block content %}{% endblock %}
+				<p><a href="/news.html">&laquo; Back to News</a></p>
+				</article>
+			</div>
+			{% include "news-sidebar" %}
+		</div>
+	</section>
+		<!-- Script block allowing child pages to inject their own scripts -->
+		{% include "footer" %}
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		{{ "typed.js" | asset_url | script_tag }}
+		{% block scripts %}{% endblock %}
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.floating-page-nav a').click(function(e){
+					var scrollTo = $(this).attr('href');
+					scrollTo = $(scrollTo).offset().top;
+					$('html, body').animate({ scrollTop: scrollTo-60 }, 400);
+				})
+				if( $('.floating-page-nav').length ){
+					var menuTop = $('.floating-page-nav').offset().top;
+				}else{
+					var menuTop = false;
+				}
+				$('#news-sidebar .repeat').hide();
+				$('#news-categories').change(function(){
+					var eval = $(this).val();
+					$('#news-sidebar .blog-headline').each(function(){
+						if(!$(this).hasClass(eval)) {
+							$(this).hide();
+						}
+						else {
+							$(this).fadeIn();
+						}
+					});
+				});
+				$(window).scroll(function(){
+					$('body').addClass('scrolling');
+					if(menuTop) {
+						if( $(window).scrollTop() > menuTop ){
+							$('.floating-page-nav').addClass('floating');
+						}
+						else{
+							$('.floating-page-nav').removeClass('floating');
+						}
+					}
+					if( $(window).scrollTop() > 100 ){
+						$('#mainhead nav').addClass('collapsed');
+						$('#mainhead').hover(function(){
+							$('#mainhead nav').removeClass('collapsed');
+						}, function(){
+							$('#mainhead nav').addClass('collapsed');
+						});
+					}
+					else{
+						$('#mainhead nav').removeClass('collapsed');
+					}
+					if( $('.scroll-target').length ){
+						$('.scroll-target').each(function(){
+							var gotMe = $(this).offset().top;
+							var gotEnd = gotMe + $(this).height();
+							var id = $(this).attr('id');
+							if( $(window).scrollTop() > (gotMe-100) && $(window).scrollTop() < (gotEnd-100) )
+							{
+								$('.floating-page-nav .current').removeClass('current');
+								$('.floating-page-nav a[href="#'+id+'"]').addClass('current');
+							}
+						});
+						if( $(window).scrollTop() < 100 ){
+							$('.floating-page-nav .current').removeClass('current');
+						}
+					}
+				});
+			});
+			$.fn.scrollStopped = function(callback) {           
+        $(this).scroll(function(){
+            var self = this, $this = $(self);
+            if ($this.data('scrollTimeout')) {
+              clearTimeout($this.data('scrollTimeout'));
+            }
+            $this.data('scrollTimeout', setTimeout(callback,250,self));
+        });
+			};
+
+			$(window).scrollStopped(function(){
+					$('body').removeClass('scrolling');
+			});
+		</script>
+	</body>
+</html>

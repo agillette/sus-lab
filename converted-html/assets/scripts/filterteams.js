@@ -97,7 +97,7 @@ var dropdownFilter = {
 // On document ready, initialise our code.
 
 $(function(){
-   $('.active-tab').slideDown();
+  $('.active-tab').show();
   // Initialize dropdownFilter code
       
   dropdownFilter.init();
@@ -105,6 +105,12 @@ $(function(){
   // Instantiate MixItUp
       
   $('#team-container').mixItUp({
+		animation: {
+			enable: false,
+			effects: 'fade stagger',
+			animateResizeContainer: false,
+			perspectiveDistance: '0px'
+		},
     controls: {
       enable: false // we won't be needing these
     },
@@ -119,11 +125,14 @@ $(function(){
 			}
     },
 		load: {
-			filter: '.tsl,.wa,.gsf,.sp'
+			filter: '.mix,.tsl,.wa,.gsf,.sp'
 		}
   });
 	$('.team-link').click(function(e){
 		e.preventDefault();
+		var image = $(this).siblings('img');
+		console.log(image);
+		$(this).parents('.container').next('.description').prepend('<img class="bio-image-modal" src="'+image.attr('src')+'">');
 		var content = $(this).parents('.container').next('.description').html();
 		console.log(content);
 		$('.overlay').height( $('html').height() );

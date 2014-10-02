@@ -1,0 +1,23 @@
+			<div class="column one-quarter push-1" id="news-sidebar" style="padding-bottom:7em;">
+				<h2 class="news-intro">Latest Updates</h2>
+				<label for="category">Showing</label>
+				<select name="category" id="news-categories">
+					<option value="all">All News</option>
+					<option value="lnews">Lab News</option>
+					<option value="wanews">Wadi Attir</option>
+					<option value="gsfnews">GSF</option>
+					<option value="spnews">Sustainability Prize</option>
+				</select>
+				{% collection "news" %}
+				{% for post in collection.items %}
+				<hgroup class="blog-headline {{ post.classes }}">
+					<h3><a href="{{ post.slug }}.html">{{ post.title }}</a></h3>
+					<a class="read-more" href="{{ post.slug }}.html">Continue reading &raquo;</a>
+				</hgroup>
+				{% endfor %}
+				{% endcollection %}
+				<hgroup class="blog-headline lnews repeat"><a href="#" class="read-more">See All Lab News &raquo;</a></hgroup>
+				<hgroup class="blog-headline wanews repeat"><a href="#" class="read-more">See All Wadi Attir News &raquo;</a></hgroup>
+				<hgroup class="blog-headline gsfnews repeat"><a href="#" class="read-more">See All GSF News &raquo;</a></hgroup>
+				<hgroup class="blog-headline spnews repeat"><a href="#" class="read-more">See All Sustainability Prize News &raquo;</a></hgroup>
+			</div>

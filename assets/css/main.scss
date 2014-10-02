@@ -1,5 +1,6 @@
 /* Colors */
 
+<<<<<<< HEAD
 $black: #242226; /* font color */
 $dark-grey: #c7d9d2; /* nav hover */
 $mid-grey: #6b736c; /* nav */
@@ -8,6 +9,16 @@ $white: #f3f3f3; /* background */
 $yellow: #3c7962; /* dark green - LOGO */
 $orange: #445824; /* boxes and highlights */
 $beige: #6b736c; 
+=======
+$black: #332f38; /* font color and nav hover */
+$dark-grey: #423f41; 
+$mid-grey: #5b5a5c; /* nav */
+$light-grey: #9d9d9d; /* highlight font */
+$white: #f3f3f3; /* background */
+$yellow: #3c7962; /* dark green */
+$orange: #ec7113; /* boxes and highlights */
+$beige: #e6c7a4; 
+>>>>>>> FETCH_HEAD
 
 /* mixins */
 
@@ -120,6 +131,10 @@ html[xmlns] .clearfix {
 	margin-left: 16.6667%;
 }
 
+.push-third {
+	margin-left: 33.3333%;
+}
+
 /* basics */
 
 hmtl, body {
@@ -172,6 +187,10 @@ img.round {
 	float: right;
 	width: 50%;
 	margin: 1em 0 1em 2em;
+}
+
+.text-right {
+	text-align: right;
 }
 
 .button {
@@ -260,6 +279,26 @@ form {
 	margin-bottom: 3.5em;
 }
 
+hr.light-divider {
+	width: 50%;
+	margin: 2em auto;
+	display: block;
+	height: 0;
+	border: none;
+	background: transparent;
+	border-top: 1px solid darken($white, 10%);
+}
+
+hr.home-spacer {
+	width: 100%;
+	margin: 4em 0;
+	display: block;
+	height: 0;
+	border: none;
+	backgorund: transparent;
+	border-top: 1px solid darken($white, 10%);
+}
+
 .slider-module {
 	height: 1%;
 	overflow: hidden;
@@ -322,7 +361,7 @@ form {
 			float: left; 
 			height: 20em; 
 			width: 44.55em;
-			margin-right: 1em;
+			overflow: hidden;
 			position: relative;
 			background: #fff;
 			.caption {
@@ -378,6 +417,19 @@ form {
 	}
 }
 
+#about-content .slider-module {
+	.viewport {
+		height: 20em;
+		.overview {
+			li {
+				height: 16em;
+				width: 37.45em;
+				margin: 2em 3.5em;
+			}
+		}
+	}
+}
+
 .overlay {
 	position: absolute;
 	top: 0;
@@ -405,6 +457,19 @@ form {
 }
 
 .news-single {
+	img {
+		margin: 1em auto;
+		display: block;
+	}
+	cite {
+		margin-top: -1em;
+		font-size: 0.75em;
+		color: $light-grey;
+		font-style: italic;
+		margin-bottom: 1.5em;
+		display: block;
+		text-align: center;
+	}
 	.image-left {
 		float: left;
 		margin: 0.5em 1.5em 1em 0;
@@ -559,7 +624,7 @@ form {
 	padding-top: 13.125em;
 	position: relative;
 	min-height: 25em;
-	h2 {
+	h2, h3 {
 		margin: 0;
 		font-size: 2.75em;
 		letter-spacing: 0.1em;
@@ -572,6 +637,12 @@ form {
 			font-size: 60%;
 			opacity: 0.8;
 		}
+	}
+	h3 {
+		margin-top: 3em;
+		text-transform: none;
+		font-size: 1.5em;
+		line-height: 1.6;
 	}
 	.floating-page-nav {
 		text-align: right;
@@ -616,6 +687,10 @@ form {
 	}
 }
 
+.page-header#home {
+	padding-top: 10em;
+}
+
 #about {
 	background: url(../img/about-bg.jpg) center center no-repeat;
 	background-size: cover;
@@ -635,9 +710,11 @@ form {
 }
 
 #home {
-	background: url(../img/home-bg.jpg) center center no-repeat;
+	background: transparent;
 	background-size: cover;
 	background-attachment: fixed;
+	height: 100vh;
+	overflow: hidden;
 }
 
 #connect {
@@ -687,11 +764,10 @@ form {
 		margin-bottom: 3.75em;
 		border-bottom: 1px solid $light-grey;
 		.home-project-link a {
-			margin-bottom: 4.5em;
+			margin-top: 4em;
 			display: inline-block;
 		}
 		.targettable {
-			padding-bottom: 3.75em;
 		}
 		.targettable:last-child {
 			padding-bottom: 0;
@@ -983,6 +1059,13 @@ form {
 	margin-top: 1.5em;
 }
 
+.bio-image-modal {
+	float: left;
+	width: 25%;
+	margin: 0 2em 2em 0;
+	border-radius: 50%;
+}
+
 blockquote {
 	font-size: 1.25em;
 	font-style: italic;
@@ -1126,10 +1209,23 @@ blockquote {
 /* dividers */
 
 .link-divider {
-	padding: 2.5em 0;
+	padding: 2em 0;
 	margin-bottom: 2.5em;
+<<<<<<< HEAD
 	background: $yellow;
 	color: #fff;
+=======
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  $white 0%, darken($white, 5%) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$white), color-stop(100%,darken($white, 5%))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  $white 0%,darken($white, 5%) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  $white 0%,darken($white, 5%) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  $white 0%,darken($white, 5%) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  $white 0%,darken($white, 5%) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$white', endColorstr='darken($white, 5%)',GradientType=0 ); /* IE6-9 */
+	border-bottom: 1px solid darken($white, 10%);
+	color: $black;
+>>>>>>> FETCH_HEAD
 	p {
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
@@ -1140,6 +1236,12 @@ blockquote {
 			padding-bottom: 0.25em;
 			border-bottom: 1px solid $dark-grey;
 		}
+	}
+}
+
+.project-content {
+	.link-divider {
+		width: 71.8889%;
 	}
 }
 
@@ -1256,6 +1358,52 @@ blockquote {
 				}
 			}
 		}
+	}
+}
+
+/* approach */
+
+#core-principals {
+	.scroll-target {
+		img {
+			float: left;
+			margin-left: -12%;
+			width: 10%;
+			margin-top: -1.5em;
+		}
+		.fa-ul {
+			margin-left: 0;
+			li {
+				margin-bottom: 0.6em;
+				line-height: 1.6;
+				i {
+					margin-right: 1em;
+				}
+			}
+		}
+	}
+}
+
+/* contact */
+
+#contactthelab {
+	.card {
+		.media-area {
+			height: 9em;
+		}
+		p {
+			height: 10em;
+		}
+	}
+}
+
+.call-out {
+	background: #fff;
+	padding: 1rem;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.24), 0 1px 5px rgba(0,0,0,0.12);
+	border-radius: 0.125em;
+	h4 {
+		margin-top: 0;
 	}
 }
 
