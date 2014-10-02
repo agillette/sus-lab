@@ -1,13 +1,13 @@
 /* Colors */
 
-$black: #332f38; /* font color and nav hover */
-$dark-grey: #4a3130; 
-$mid-grey: #866564; /* nav */
-$light-grey: #9d7f7e; /* highlight font */
+$black: #242226; /* font color */
+$dark-grey: #c7d9d2; /* nav hover */
+$mid-grey: #6b736c; /* nav */
+$light-grey: #7a892f; /* highlight font */
 $white: #f3f3f3; /* background */
-$yellow: #3c7962; /* dark green */
-$orange: #C5533A; /* boxes and highlights */
-$beige: #e6c7a4; 
+$yellow: #3c7962; /* dark green - LOGO */
+$orange: #445824; /* boxes and highlights */
+$beige: #6b736c; 
 
 /* mixins */
 
@@ -1043,7 +1043,7 @@ blockquote {
 	.media-area {
 		height: 12.5em;
 		overflow: hidden;
-		background: $orange;
+		background: $light-grey;
 		position: relative;
 		img {
 			position: absolute;
@@ -1128,17 +1128,17 @@ blockquote {
 .link-divider {
 	padding: 2.5em 0;
 	margin-bottom: 2.5em;
-	background: $black;
+	background: $yellow;
 	color: #fff;
 	p {
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		font-size: 0.8125em;
 		a {
-			color: $yellow;
+			color: $dark-grey;
 			text-decoration: none;
 			padding-bottom: 0.25em;
-			border-bottom: 1px solid $yellow;
+			border-bottom: 1px solid $dark-grey;
 		}
 	}
 }
@@ -1262,7 +1262,7 @@ blockquote {
 /* footer */
 
 #mainfoot {
-	background: $black;
+	background: $yellow;
 	padding: 3em 0;
 	color: #fff;
 	h3 {
@@ -1272,7 +1272,7 @@ blockquote {
 		font-size: 0.875em;
 		margin: 0;
 		padding-bottom: 1em;
-		border-bottom: 1px solid $light-grey
+		border-bottom: 1px solid $dark-grey
 	}
 	ul {
 		list-style: none;
@@ -1344,7 +1344,7 @@ blockquote {
 }
 
 .in-from-left p, .in-from-right p {
-	color: $light-grey;
+	color: $yellow;
 }
 
 .visible-now .in-from-left, .visible-now .in-from-right {
