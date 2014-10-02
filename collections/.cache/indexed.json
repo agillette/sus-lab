@@ -1,338 +1,1484 @@
 {
   "news": {
     "collection": {
-      "/news/first-group-of-fellows-have-been-selected": {
-        "slug": "/news/first-group-of-fellows-have-been-selected",
-        "title": "First Group of Fellows Have Been Selected!",
-        "category": "updates",
-        "tags": [
-          "GSF",
-          "Global Sustainability Fellows"
-        ],
+      "/news/earth-mounds": {
+        "layout": "news-single",
+        "title": "Project Wadi Attir's Earth Mounds Beat the Storm",
+        "subtitle": null,
+        "shortdesc": "Late last year, the Negev got a record amount of rain. Over three days in December, 160 mm of rain, nearly 80% of the yearly average, was recorded in the area of the project site.",
+        "has-header": 1,
+        "header-img": "../assets/img/blog/Storm5.JPG",
         "published": true,
-        "body": "<p>It is our honor to announce that the first cohort of Global Sustainability Fellows has been selected, with representation from five continents. By the mid-night application closing deadline, the program received applications from 20 countries, including: Australia, Canada, Dominican Republic, Ethiopia, Germany, Hungary, India, Ireland, Israel, Kenya, Mexico, Netherlands, Nigeria, Norway, Peru, Philippines, Portugal, Sweden, Switzerland, and the US.</p>\r\n<p>Quality of the application is such that evaluation and selection for the 20 spots we can offer was a tough process. All candidates were strong, and it was an honor to read about their unique backgrounds. We are looking forward to an amazing program and will continue to update everyone here on the GSF Blog. If you applied and did not get in, or missed the deadline, we urge you to try again next year and keep up with the GSF as we lead our first Summer of this new initiative.</p>\r\n<p>Fondly,<br>\r\nGSF Team</p>",
-        "month": "06",
-        "year": "2014",
-        "date": "2014-06-03 10:33:00 UTC",
-        "ticks": 1401791580.0,
-        "mixture_month_year": "06/2014",
-        "mixture_date": "2014-06-03T10:33:00"
-      },
-      "/news/architecting-the-future": {
-        "slug": "/news/architecting-the-future",
-        "title": "Architecting the Future -- Key Note",
-        "category": "notes",
+        "date": "2014-08-21 06:33:00 UTC",
+        "author": "Arielle Angel",
+        "slug": "/news/earth-mounds",
         "tags": [
           "Michael Ben Eli",
           "video",
           "design",
           "Buckminster Fuller"
         ],
-        "published": true,
-        "body": "<p>Michael Ben Eli discusses the renaissance of the concept of \"design\" and how all aspects of human activity are manifestations of a design process and what that implies about our role as human beings on the planet.</p>\r\n<iframe src=\"//player.vimeo.com/video/12808820?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>\r\n<p>On June 3, 2010, the Buckminster Fuller Institute hosted \"Architecting the Future\" a day long gathering, as part of the 2010 Buckminster Fuller Challenge events in Washington DC.</p>",
-        "month": "02",
+        "classes": "wanews all",
+        "category": "notes",
+        "premise": "Updates from the Field: Wadi Attir",
+        "featured": 1,
+        "body": "\n<p class=\"intro\">Late last year, the Negev got a record amount of rain. Over three days in December, 160 mm of rain, nearly 80% of the yearly average, was recorded in the area of the project site.</p>\n\n\t\t\t\t\t<img src=\"/assets/img/blog/Storm1.JPG\">\n\n\t\t\t\t\t<p>Normally, this would cause massive erosion on the project site. In fact, this was a common image on the project site before we began our Soil Enhancement Initiative, led by <a href=\"#\">Dr. Stefan Leu</a> of Ben Gurion University of the Negev:</p>\n\n\t\t\t\t\t<img src=\"/assets/img/blog/Storm2.jpg\">\n\n\t\t\t\t\t<p>Implementing the soil erosion and water retention system has been a key part of the project�s soil enhancement program, designed and supervised by BGU researcher Stefan Leu and his team. As part of this program, we have been collecting 27 species of desert hardy trees and shrubs in the project�s greenhouse. These are intended to improve soil fertility and increase the carbon content of the soil, hold water in place, sequester nitrogen, and provide shade and protection against the prevailing winds, thereby enriching the biodiversity of the site. To date, some 3,000 trees have been transferred to the 100-acre site, including 360 high-quality olive trees, planted by local high school students last March. All trees have taken well to the transfer, completely transforming the characteristics of the previously barren site. In addition to the immediate visual impact, we are already seeing some other spectacular changes: bird species not previously seen in the vicinity are now visiting in increasing frequency and numbers.</p>\n\n\t\t\t\t\t<p>These storms put our water retention and erosion protection systems to the test. But thanks to the efforts of Stefan and his team, the project site literally \"held its ground.\" The low water-retention earth mounds designed by Stefan and distributed throughout the site, performed well, holding large quantities of water that otherwise would have been lost, and forming large water pools in the open fields.</p> \n\n\t\t\t\t\t<img src=\"/assets/img/blog/Storm3.JPG\"> \n\t\t\t\t\t<img src=\"/assets/img/blog/Storm4.JPG\">\n\n\t\t\t\t\t<p>The pools also attracted waterfowl to the site, where they were able to enjoy the calm after the storm�a very rare sight in this area.</p>\n\n\t\t\t\t\t<img src=\"/assets/img/blog/Storm5.JPG\">",
+        "month": "08",
         "year": "2014",
-        "date": "2014-02-27 06:33:00 UTC",
-        "ticks": 1393482780.0,
-        "mixture_month_year": "02/2014",
-        "mixture_date": "2014-02-27T06:33:00"
+        "ticks": 1408602780.0,
+        "mixture_month_year": "08/2014",
+        "mixture_date": "2014-08-21T06:33:00Z"
+      },
+      "/news/first-fellows": {
+        "layout": "news-single",
+        "title": "First Group of Fellows Have Been Selected",
+        "subtitle": null,
+        "shortdesc": null,
+        "has-header": 0,
+        "published": true,
+        "date": "2014-09-01 06:33:00 UTC",
+        "author": "Lee Frankel-Goldwater",
+        "slug": "/news/first-fellows",
+        "tags": [
+          "Michael Ben Eli",
+          "video",
+          "design",
+          "Buckminster Fuller"
+        ],
+        "classes": "gsfnews all",
+        "category": "notes",
+        "premise": "Updates from the Field: Global Sustainability Fellows",
+        "featured": 0,
+        "body": "\n<p>It is our honor to announce that the first cohort of Global Sustainability Fellows has been selected, with representation from five continents. By the mid-night application closing deadline, the program received applications from 20 countries, including: Australia, Canada, Dominican Republic, Ethiopia, Germany, Hungary, India, Ireland, Israel, Kenya, Mexico, Netherlands, Nigeria, Norway, Peru, Philippines, Portugal, Sweden, Switzerland, and the US.</p>\n<p>Quality of the application is such that evaluation and selection for the 20 spots we can offer was a tough process. All candidates were strong, and it was an honor to read about their unique backgrounds. We are looking forward to an amazing program and will continue to update everyone here on the GSF Blog. If you applied and did not get in, or missed the deadline, we urge you to try again next year and keep up with the GSF as we lead our first Summer of this new initiative.</p>\n<p>Fondly,<br>GSF Team</p>",
+        "month": "09",
+        "year": "2014",
+        "ticks": 1409553180.0,
+        "mixture_month_year": "09/2014",
+        "mixture_date": "2014-09-01T06:33:00Z"
+      },
+      "/news/gsf-pilot-session": {
+        "layout": "news-single",
+        "title": "GSF Pilot Session",
+        "subtitle": "Week 1 - Farms, Theory, and Some Chocolate",
+        "shortdesc": "The Global Sustainability Fellows have arrived from all over the world, an amazing set of 20 students.",
+        "has-header": 1,
+        "header-img": "../assets/img/blog/pilotsession1.jpg",
+        "author": "Lee Frankel-Goldwater",
+        "published": true,
+        "date": "2014-09-21 06:33:00 UTC",
+        "slug": "/news/gsf-pilot-session",
+        "tags": [
+          "Michael Ben Eli",
+          "video",
+          "design",
+          "Buckminster Fuller"
+        ],
+        "classes": "gsfnews all",
+        "category": "notes",
+        "premise": "Updates from the Field: Global Sustainability Fellows",
+        "featured": 0,
+        "body": "\n<p class=\"intro\">The Global Sustainability Fellows have arrived from all over the world, an amazing set of 20 students. The week started with an evening orientation session and dinner, where students learned about the homestay experience they would be jumping into the very next day. Along the early morning bus ride to Lim�n Province, we were caught in a mile-long traffic jam due to a worker strike, which ended up being an early bonding experience for the group, who have proven themselves to be flexible and open to the variety of new experiences encountered so far.</p>\n<img class=\"image-left\" src=\"/assets/img/blog/pilotsession2.jpg\">\n<p>With a few hours delay, the students began their homestay, while the faculty returned to EARTH Campus in Lim�n to finalize the next week�s theory sessions. The students returned the next day lit up by their short, but meaningful journey. In the wrap-up session that followed, each homestay group shared a bit of what they learned, as one of their tasks was to openly look at their farm host�s living and work environments, and ponder ways that they might potentially assist.</p>\n<p>One group did more than just observed, but spent the night working on new chocolate products and bio-degradable packaging with their hosts, who subsist on cacao farming. During the session they shared some of these tasty chocolates with fellows and faculty and later in the week outlined an entire system of production that might be shared with their hosts to aid in their business growth.</p>\n<p>This is a microcosmic example of the possibilities and insights that have arisen during this pilot session. During the course of a four day theory sequence with Dr. Ben-Eli and Professors Schwaninger and Amadei, students wrestled some very large questions in a group context, without any direct limitations placed on the scope of their solutions. These topics included: \"Small Steps to Sustainability: Creating a Sustainable Agriculture System for Finca Argentina, and \"What is the Place of the Spiritual Dimension in the Lab's Signature Approach to Sustainability. All final presentations displayed the character of the outstanding group.</p>\n<img class=\"image-right\" src=\"/assets/img/blog/pilotsession3.jpg\">\n<p>After tours of the EARTH campus banana plantation, and braving a fair amount of Costa Rican rain, the group took to the road to begin the Eco-Leadership portion of the journey. Led by Dr. BK Singh of EARTH University, we visited an organic pineapple plantation as well as Eco-Termales, a family owned and operated business offering food and hot spring services to locals and tourists. The land and business demonstrates a fully interconnected system with a bio-digestor that provides 50% of the business�s gas needs, a constructed wetland, and a waste composting site, as well as small dairy and full restaurant. We toured the grounds, and met the family matriarch, who we were told is \"the spirit behind the entire venture,\" enjoying one of the tastiest dinners of the trip, which she had prepared herself.</p>\n<img class=\"image-left\" src=\"/assets/img/blog/pilotsession4.jpg\">\n<p>The following early morning we took a cloud forest walk on suspension bridges, bringing us face to face with the upper level of the forest canopy. The trail exists on grounds conserved by local eco-tourism businesses. We then continued on the bus to the other side of the mountains, greeted by a brilliant sunset. EARTH La Flor is in Guanacaste, a much drier climate than Limon. The Fellows are now entering the second stage of the program, with a week of community development activities to come. The students will be engaging with a local community called Martina Bustos, and working with community members to create a Comprehensive Sustainability Plan, which will be presented to local officials and stakeholders at week's end.</p>\n<img class=\"image-right\" src=\"/assets/img/blog/pilotsession5.jpg\">\n<p>It�s an ambitious venture, with much to learn and discover. I, for one, am excited to see what emerges.</p>\n<p>From Costa Rica,<br>Lee</p>\n<cite>(photos by Yam Aisner)</cite>",
+        "month": "09",
+        "year": "2014",
+        "ticks": 1411281180.0,
+        "mixture_month_year": "09/2014",
+        "mixture_date": "2014-09-21T06:33:00Z"
+      },
+      "/news/lab-makeover": {
+        "layout": "news-single",
+        "title": "The Lab Website Gets a Makeover",
+        "subtitle": null,
+        "shortdesc": "As you may have noticed, The Lab's website has gone through an incredible metamorphosis, thanks to the efforts of our Lab staff and our designers, Ashley Quinn and Andy Gillette of <a target=\"_blank\" href=\"http://welessthanthree.com\">We Less Than Three</a>.",
+        "has-header": 0,
+        "published": true,
+        "date": "2014-09-11 06:33:00 UTC",
+        "author": "Arielle Angel",
+        "slug": "/news/lab-makeover",
+        "tags": [
+          "Michael Ben Eli",
+          "video",
+          "design",
+          "Buckminster Fuller"
+        ],
+        "classes": "lnews all",
+        "category": "notes",
+        "premise": "The Sustainability Lab Notes",
+        "featured": 1,
+        "body": "\n<p class=\"intro\">As you may have noticed, The Lab's website has gone through an incredible metamorphosis, thanks to the efforts of our Lab staff and our designers, Ashley Quinn and Andy Gillette of <a target=\"_blank\" href=\"http://welessthanthree.com\">We Less Than Three</a>.</p>\n<img src=\"../assets/img/labweb.jpg\"><br>\n<cite>The Lab Team and We Less Than Three, at work</cite>\n<p>We're confident that this new iteration tells The Lab's story in a clearer, more dynamic and more user-friendly fashion. Take a look around, and if you feel so inclined, <a href=\"#\">tell us what you think</a>.</p>",
+        "month": "09",
+        "year": "2014",
+        "ticks": 1410417180.0,
+        "mixture_month_year": "09/2014",
+        "mixture_date": "2014-09-11T06:33:00Z"
+      },
+      "/news/martina-bustos": {
+        "layout": "news-single",
+        "title": "Visit to Martina Bustos",
+        "subtitle": "There Are No \"One-Size-Fits-All\" Solutions",
+        "shortdesc": "This blog post was written by Assistant GSF Faculty Ana Laura Dengo, who recently visited the site of the GSF Program Fieldwork with Faculty member BK Singh and Assistant Faculty Jholenny Cordoba Chaves.",
+        "has-header": 1,
+        "header-img": "../assets/img/blog/visitmartina1.jpg",
+        "published": true,
+        "date": "2014-07-21 06:33:00 UTC",
+        "author": "Ana Laura Dengo",
+        "slug": "/news/martina-bustos",
+        "tags": [
+          "Michael Ben Eli",
+          "video",
+          "design",
+          "Buckminster Fuller"
+        ],
+        "classes": "gsfnews all",
+        "category": "notes",
+        "premise": "Updates from the Field: Global Sustainability Fellows",
+        "featured": 1,
+        "body": "\n<p class=\"intro\">This blog post was written by Assistant GSF Faculty Ana Laura Dengo, who recently visited the site of the GSF Program Fieldwork with Faculty member BK Singh and Assistant Faculty Jholenny C&oacute;rdoba Chaves.</p>\n\n\t\t\t\t\t<img src=\"/assets/img/blog/visitmartina2.jpg\">\n\n\t\t\t\t\t<cite>Assistant Faculty Ana and Jholenny talking with community members</cite>\n\t\t\t\t\t<p>Greetings! We are so excited about the upcoming summer program in Costa Rica!</p>\n\n\t\t\t\t\t<p>We have already started scouting the community where we will be doing fieldwork, and for which the fellows of this program will design sustainable development plans. The Martina Bustos community was chosen as the site for fieldwork because it exemplifies many of the development challenges that very poor societies face on a daily basis. We hope that this program is not just a learning opportunity for the fellows and faculty (although that is valuable in itself), but also an opportunity to contribute to the positive growth of the community by helping to create a sustainable development plan.</p>\n\n\t\t\t\t\t<img src=\"/assets/img/blog/visitmartina3.jpg\">\n\n\t\t\t\t\t<cite>Community center</cite>\n\t\t\t\t\t<p>Our first visit to the Martina Bustos community confirmed the importance of a hands-on approach to learning and planning. In a prior report, we had said, based on available literature, that most of the community lacks electric power and transportation services; however, during our visit we learned that most of the community has access to electricity and that there is an hourly bus service. Whether community members are able to afford the bus fees on a regular basis remains to be explored.</p>\n\t\t\t\t\t<p>We also witnessed that there is much work to be done to improve the living conditions in this community. Waste management services are non-existent in the area, which is evident on the side of the roads. The access to water is very limited, to the point where there are only a few common faucets that supply water to the neighbors. To my understanding, none of the houses have indoor bathrooms or plumbing for disposal of wastes.</p>\n\n\t\t\t\t\t<img src=\"/assets/img/blog/visitmartina4.jpg\">\n\t\t\t\t\t<img src=\"/assets/img/blog/visitmartina5.jpg\">\n\n\t\t\t\t\t<cite>Common faucets</cite>\n\t\t\t\t\t<p>It should also be mentioned that most of the houses are made out of tin (�zinc sheets�) and some of the neighbors live in wooden cubicle homes that the non-profit organization TECHO built for them.</p>\n\n\t\t\t\t\t<img src=\"/assets/img/blog/visitmartina6.jpg\">\n\n\t\t\t\t\t<cite>Tin homes</cite>\n\t\t\t\t\t<p>A very interesting fact provided to us by a community leader is that not all families that are offered a cubicle home accept one. The reasons why they do not accept this help are unclear to us at this moment, but it reminds us that even when people and/or organizations have the best intentions to help others:</p>\n\t\t\t\t\t<ol>\n\t\t\t\t\t<li>There are no �one-size-fits-all� solutions</li>\n\t\t\t\t\t<li>Sometimes people do not want to be helped or fear change</li>\n\t\t\t\t\t<li>Taking the time to get to know the community and its members is crucial in designing interventions that are priority-based</li>\n\t\t\t\t\t<li>Involvement and empowerment of community members is key for the success of sustainable development plans</li>\n\t\t\t\t\t</ol>\n\t\t\t\t\t<p>I am certain that the interaction between fellows, faculty and community members will result in many more insights than the few that I have provided here, and that the pilot GSF Program will be a significant experience for all.  We look forward to meeting everyone soon!</p>\n\t\t\t\t\t<p>Regards from Costa Rica!</p>",
+        "month": "07",
+        "year": "2014",
+        "ticks": 1405924380.0,
+        "mixture_month_year": "07/2014",
+        "mixture_date": "2014-07-21T06:33:00Z"
+      },
+      "/news/photo-workshop": {
+        "layout": "news-single",
+        "title": "Photography Workshop at Wadi Attir",
+        "subtitle": null,
+        "shortdesc": null,
+        "has-header": 1,
+        "header-img": "../assets/img/blog/PhotoWorkshop1.jpg",
+        "published": true,
+        "date": "2014-08-21 06:33:00 UTC",
+        "author": "Arielle Angel",
+        "slug": "/news/photo-workshop",
+        "tags": [
+          "Michael Ben Eli",
+          "video",
+          "design",
+          "Buckminster Fuller"
+        ],
+        "classes": "wanews all",
+        "category": "notes",
+        "premise": "Updates from the Field: Wadi Attir",
+        "featured": 0,
+        "body": "\n<p class=\"intro\">Last week, the new Lab Intern, Film and TV Editor <a href=\"#\">Yam Aizner</a>, visited Project Wadi Attir to give a photography workshop to the members of the cooperative. This renewed confidence with the camera will be invaluable as they continue to tell their stories and put them out in the world.</p>\n<img src=\"/assets/img/blog/PhotoWorkshop1.jpg\">\n<p>\"Of course, learning photography takes more than one session, but everyone learned some practical tips for photographing the types of subjects that are common at Wadi Attir,\" Yam said.</p>\n<img src=\"/assets/img/blog/PhotoWorkshop2.JPG\">\n<p>\"We learned about how to photograph plants and open space, how to focus the picture and how to deal with outdoor lighting. Everyone was really interested and asked a lot of questions! said Project Member <a href=\"#\">Rawan Nabbari</a>.\n<img src=\"/assets/img/blog/PhotoWorkshop3.JPG\">\n<p>Below, you can see <a href=\"#\">Ali Alhawashla</a>, Director of the Medicinal Plants Initiative, experimenting with photographing plants in the field. This will be a particularly important skill for Ali, as he is currently compiling his original data concerning traditional Bedouin uses of medicinal plants, their practical applications, and the outstanding characteristics of each type of plant for publication. This process has required Ali to compare data on each plant, identify overlapping uses, evaluate treatment effectiveness, and summarize his findings.</p>\n<img src=\"/assets/img/blog/PhotoWorkshop4.JPG\">\n<p>During the workshop, Yam also had a chance to photograph the site, just before construction begins on the buildings. Check out the progress of the medicinal plants!</p>\n<img src=\"/assets/img/blog/PhotoWorkshop5.JPG\">\n<p>Yam also managed to spot a fox, part of a trend towards growing biodiversity on the project site.</p>\n<img src=\"/assets/img/blog/PhotoWorkshop6.jpg\">",
+        "month": "08",
+        "year": "2014",
+        "ticks": 1408602780.0,
+        "mixture_month_year": "08/2014",
+        "mixture_date": "2014-08-21T06:33:00Z"
+      },
+      "/news/sus-prize-renewed": {
+        "layout": "news-single",
+        "title": "Sustainability Prize Renewed until 2018!",
+        "subtitle": null,
+        "shortdesc": null,
+        "has-header": 0,
+        "header-img": null,
+        "published": true,
+        "date": "2014-08-11 06:33:00 UTC",
+        "author": "Arielle Angel",
+        "slug": "/news/sus-prize-renewed",
+        "tags": [
+          "Michael Ben Eli",
+          "video",
+          "design",
+          "Buckminster Fuller"
+        ],
+        "classes": "spnews all",
+        "category": "notes",
+        "premise": "The Sustainability Prize",
+        "featured": 0,
+        "body": "\n<p class=\"intro\">Thanks to the generosity of donors Joshua Arnow and Ivor Freeman, The Sustainability Laboratory will continue The Sustainability Prize Program for another five years, through 2018. This represents another $50,000 investment in EARTH students and their ideas for improving the lives of people in Costa Rica and in students� hometowns across Latin America, the Caribbean and Africa.</p>\n\n\t\t\t\t\t<p>\"Entrepreneurship is scary at the best of times; to create a sustainable enterprise is more so. This is why I support the Sustainability Prize: to encourage and reward those who have the courage to make the effort,\" said Mr. Freeman.</p>\n\n\t\t\t\t\t<p>Over the past five years, the Prize Program has become an essential part of EARTH�s curriculum, and a key, motivating factor in the quality and ambition of senior students� graduation projects.</p>\n\n\t\t\t\t\t<p>\"The existence of this prize is a concrete demonstration to our students that they are not alone in their deep concern about the future of our planet and that there are people and organizations in the world who share their desire to seek innovative and constructive solutions to the environmental, social, economic and spiritual challenges facing us,\" said EARTH Provost Daniel Sherrard.</p>\n\n\t\t\t\t\t<p>The Prize Program will continue to be led jointly by Dr. Michael Ben-Eli of The Sustainability Laboratory and Dr. Irene Alvarado Van der Laat of EARTH University. A winner for 2014 will be chosen later this year.</p>\n\n\t\t\t\t\t<img src=\"/assets/img/blog/PrizeDonor.jpg\"> \n\t\t\t\t\t<cite>Sustainability Prize Benefactor Joshua Arnow with 2013 Prizewinner Maria del Rosario Chavez Lazarte.</cite>",
+        "month": "08",
+        "year": "2014",
+        "ticks": 1407738780.0,
+        "mixture_month_year": "08/2014",
+        "mixture_date": "2014-08-11T06:33:00Z"
+      },
+      "/news/travel-dillema": {
+        "layout": "news-single",
+        "title": "The Travel Dilemma: Flying to a Sustainability Program?",
+        "subtitle": null,
+        "shortdesc": null,
+        "has-header": 1,
+        "header-img": "../assets/img/blog/traveldilemma.jpg",
+        "published": true,
+        "date": "2014-08-01 06:33:00 UTC",
+        "author": "Lee Frankel-Goldwater",
+        "slug": "/news/travel-dillema",
+        "tags": [
+          "Michael Ben Eli",
+          "video",
+          "design",
+          "Buckminster Fuller"
+        ],
+        "classes": "gsfnews all",
+        "category": "notes",
+        "premise": "Updates from the Field: Global Sustainability Fellows",
+        "featured": 0,
+        "body": "\n<p class=\"intro\">We have now closed our application window and are in the thick of the review process. We are so excited about the strong crop of applicants! Accepted applicants will be notified in late April/early May, and will soon have to make their travel arrangements. Apropos, we wanted to share a conversation we had with a student of sustainability who decided not to apply to the GSF, on principle, since accepted applicants would necessarily have to fly to Costa Rica from all over the world, resulting in a high level of carbon emissions. This conversation represents a debate that has long been raging in the environmental community; we include it here in order to present the GSF's conceptual orientation, and to spur further conversation.</p>\n\t\t\t\t\t<hr>\n\t\t\t\t\t<p>Dear GSF Team,</p>\n\t\t\t\t\t<p>As far as I can tell from your website, the Global Fellowship Program in Costa Rica is a great learning opportunity for students across the globe.</p>\n\t\t\t\t\t<p>As a student in the field of sustainability studies, I might have fit pretty well into the program. But here I am writing you that I am explicitly not applying to your program. With due respect to your organizational effort, I don�t believe this program is actually working towards sustainability.</p>\n\t\t\t\t\t<p>Why? Students need to take a plane to get to Costa Rica, pretty much no matter where they live on the globe, so it takes our planet quite a few years to restore the damage inflicted on the atmosphere only due to the participation in your program.</p>\n\t\t\t\t\t<p>Please do not seduce students worldwide with fellowships and touristic resorts and nice theories and a certificate for their CVs � come up with local or digital programs that do not harm our environment by design and show that you actually know how systematic sustainable lifestyles look.</p>\n\t\t\t\t\t<p>Best regards from Germany,<br>\n\t\t\t\t\tChristoph Pfisterer<br>\n\t\t\t\t\tUniversity of Konstanz</p>\n\t\t\t\t\t<hr>\n\t\t\t\t\t<p>Dear Christoph,</p>\n\t\t\t\t\t<p>Thank you very much for your thoughtful comments.</p>\n\t\t\t\t\t<p>You do have a point, and we agree that it is important to actively reduce adverse impacts on the planet by cutting down on unnecessary activities which increase harmful emissions.\n\t\t\t\t\tThe point that you make (avoiding flying for meetings, conferences and the like) has been made repeatedly in recent years�in our view, somewhat naively. The implication of that view is a call for collapsing the human experience to local, entirely self sufficient pockets of \n\t\t\t\t\t\"sustainable\" existence: local communities organized around local resources, local food production, dependency on local currencies, and the like.</p>\n\t\t\t\t\t<p>We feel, on the other hand, that the next challenge facing humanity is how to design-evolve a planetary civilization, integrating an enlightened global culture and a globally integrated physical infrastructure of metabolic support. The former would be based on universal human rights and deep respect for the integrity and well-being of other life forms and their habitats, while the latter would be conceived as one healthy eco-system that will continuously recycle imperishable chemical elements, emphasize high resource productivity, employ non-depletable, clean sources of energy, and ensure that the byproducts of any one process become the nourishing inputs to other productive processes. In other words, we envision planetary integration and movement of the world's people, materials, and energy, rather than fragmentation and isolation within local communities.</p>\n\t\t\t\t\t<p>To this end, we believe that the experience of otherness�other places, other people, other cultures, other ways of seeing the world, directly, rather than digitally�is a crucial pedagogic priority. It is a tool for developing deep understanding about the interconnectedness and specific nature of many of the issues that we face today, and for fostering a culture of universal compassion and tolerance.</p>\n\t\t\t\t\t<p>A complete disengagement from dependency on our current fossil fuel economy does not seem a viable option other than in isolated small-scale cases. Rather, a staged strategy for using the potential of the current to secure a smooth graduation to the next step in evolution appears, in our opinion, to be a more sound approach. In spite of your genuine concern, we imagine that you, too, may also find it difficult to cut off completely from dependency on processes, services and products which could still be associated with some measure of adverse impact.</p>\n\t\t\t\t\t<p>And yet, as we said, you do have a point. So what to do? We propose the following:</p>\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li>We shall ask participants in the program to travel, to the extent possible, on airlines that have committed to \"Eco-Skies\" types of programs.</li>\n\t\t\t\t\t\t<li>We shall follow the late Ray Anderson and the practice adopted by his company, Interface, in planting trees for travel. According to Interface, an organization with a commitment to carbon offsets, a tree, in its lifetime, will sequester the carbon generated by 4,000 passenger miles travelled on a commercial jet. Accordingly, we shall plant a tree for every 4,000 miles travelled by participants in the program.</li>\n\t\t\t\t\t\t<li>Finally, we would like to post your message, along with this response, on the program's blog in order to encourage a conversation on the important question that you have raised.</li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t<p>We look forward to hearing from you.</p>\n\t\t\t\t\t<p>Best,<br>\n\t\t\t\t\tMichael Ben-Eli and the GSF team</p>\n\t\t\t\t\t<hr>\n\t\t\t\t\t<p>Dear Michael Ben-Eli,<p>\n\n\t\t\t\t\t<p>Thank you very much for your in-depth response!</p>\n\n\t\t\t\t\t<p>I do realize that to actually allow a global consciousness on regulative ideas such as sustainability, peace, justice et cetera, we first need to get connected, and this is kind of difficult via Skype, and easier via real-life handshakes, talks and hugs. I basically agree on most of what you said. However, I remember the words of my history teacher, who said that every time people attempted to reach a goal with means that are not in harmony with the values represented by the goal, the attempt failed (classic examples like waging war to achieve peace, then causing more violence, are numerous). And if we are honest, there are ways to travel more eco-friendly, like ships, cars, etc. Planes are simply the best time-saving machines, a great symbol for both progress but also the machinization of the human scale of speed which outruns the scale of speed according to which planet Earth ticks and reproduces. I am hoping you and your students will find innovative solutions to questions like these in your seminar!</p>\n\n\t\t\t\t\t<p>I really like your ideas on how to \"compensate\" the miles traveled!</p>\n\n\t\t\t\t\t<p>I wish you, your teachers and all students of the GSFP an amazing time in Costa Rica!</p>\n\t\t\t\t\t\n\t\t\t\t\t<p>Best,<br>\n\t\t\t\t\tChristoph</p>",
+        "month": "08",
+        "year": "2014",
+        "ticks": 1406874780.0,
+        "mixture_month_year": "08/2014",
+        "mixture_date": "2014-08-01T06:33:00Z"
       }
     },
     "index": {
-      "slug": {
-        "/news/first-group-of-fellows-have-been-selected": [
-          "/news/first-group-of-fellows-have-been-selected"
-        ],
-        "/news/architecting-the-future": [
-          "/news/architecting-the-future"
+      "layout": {
+        "news-single": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
         ]
       },
-      "transliterated-slug": {
-        "/news/first-group-of-fellows-have-been-selected": [
-          "/news/first-group-of-fellows-have-been-selected"
-        ],
-        "/news/architecting-the-future": [
-          "/news/architecting-the-future"
+      "transliterated-layout": {
+        "news-single": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
         ]
       },
       "title": {
-        "first group of fellows have been selected!": [
-          "/news/first-group-of-fellows-have-been-selected"
+        "project wadi attir's earth mounds beat the storm": [
+          "/news/earth-mounds"
         ],
-        "architecting the future -- key note": [
-          "/news/architecting-the-future"
+        "first group of fellows have been selected": [
+          "/news/first-fellows"
+        ],
+        "gsf pilot session": [
+          "/news/gsf-pilot-session"
+        ],
+        "the lab website gets a makeover": [
+          "/news/lab-makeover"
+        ],
+        "visit to martina bustos": [
+          "/news/martina-bustos"
+        ],
+        "photography workshop at wadi attir": [
+          "/news/photo-workshop"
+        ],
+        "sustainability prize renewed until 2018!": [
+          "/news/sus-prize-renewed"
+        ],
+        "the travel dilemma: flying to a sustainability program?": [
+          "/news/travel-dillema"
         ]
       },
       "transliterated-title": {
+        "project-wadi-attirs-earth-mounds-beat-the-storm": [
+          "/news/earth-mounds"
+        ],
         "first-group-of-fellows-have-been-selected": [
-          "/news/first-group-of-fellows-have-been-selected"
+          "/news/first-fellows"
         ],
-        "architecting-the-future----key-note": [
-          "/news/architecting-the-future"
+        "gsf-pilot-session": [
+          "/news/gsf-pilot-session"
+        ],
+        "the-lab-website-gets-a-makeover": [
+          "/news/lab-makeover"
+        ],
+        "visit-to-martina-bustos": [
+          "/news/martina-bustos"
+        ],
+        "photography-workshop-at-wadi-attir": [
+          "/news/photo-workshop"
+        ],
+        "sustainability-prize-renewed-until-2018": [
+          "/news/sus-prize-renewed"
+        ],
+        "the-travel-dilemma-flying-to-a-sustainability-program": [
+          "/news/travel-dillema"
         ]
       },
-      "category": {
-        "updates": [
-          "/news/first-group-of-fellows-have-been-selected"
+      "subtitle": {
+        "": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/lab-makeover",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
         ],
-        "notes": [
-          "/news/architecting-the-future"
+        "week 1 - farms, theory, and some chocolate": [
+          "/news/gsf-pilot-session"
+        ],
+        "there are no \"one-size-fits-all\" solutions": [
+          "/news/martina-bustos"
         ]
       },
-      "transliterated-category": {
-        "updates": [
-          "/news/first-group-of-fellows-have-been-selected"
+      "transliterated-subtitle": {
+        "": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/lab-makeover",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
         ],
-        "notes": [
-          "/news/architecting-the-future"
+        "week-1---farms-theory-and-some-chocolate": [
+          "/news/gsf-pilot-session"
+        ],
+        "there-are-no-one-size-fits-all-solutions": [
+          "/news/martina-bustos"
+        ]
+      },
+      "shortdesc": {
+        "late last year, the negev got a record amount of rain. over three days in december, 160 mm of rain, nearly 80% of the yearly average, was recorded in the area of the project site.": [
+          "/news/earth-mounds"
+        ],
+        "": [
+          "/news/first-fellows",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ],
+        "the global sustainability fellows have arrived from all over the world, an amazing set of 20 students.": [
+          "/news/gsf-pilot-session"
+        ],
+        "as you may have noticed, the lab's website has gone through an incredible metamorphosis, thanks to the efforts of our lab staff and our designers, ashley quinn and andy gillette of <a target=\"_blank\" href=\"http://welessthanthree.com\">we less than three</a>.": [
+          "/news/lab-makeover"
+        ],
+        "this blog post was written by assistant gsf faculty ana laura dengo, who recently visited the site of the gsf program fieldwork with faculty member bk singh and assistant faculty jholenny cordoba chaves.": [
+          "/news/martina-bustos"
+        ]
+      },
+      "transliterated-shortdesc": {
+        "late-last-year-the-negev-got-a-record-amount-of-rain-over-three-days-in-december-160-mm-of-rain-nearly-80-of-the-yearly-average-was-recorded-in-the-area-of-the-project-site": [
+          "/news/earth-mounds"
+        ],
+        "": [
+          "/news/first-fellows",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ],
+        "the-global-sustainability-fellows-have-arrived-from-all-over-the-world-an-amazing-set-of-20-students": [
+          "/news/gsf-pilot-session"
+        ],
+        "as-you-may-have-noticed-the-labs-website-has-gone-through-an-incredible-metamorphosis-thanks-to-the-efforts-of-our-lab-staff-and-our-designers-ashley-quinn-and-andy-gillette-of-a-target_blank-hrefhttp//welessthanthreecomwe-less-than-three/a": [
+          "/news/lab-makeover"
+        ],
+        "this-blog-post-was-written-by-assistant-gsf-faculty-ana-laura-dengo-who-recently-visited-the-site-of-the-gsf-program-fieldwork-with-faculty-member-bk-singh-and-assistant-faculty-jholenny-cordoba-chaves": [
+          "/news/martina-bustos"
+        ]
+      },
+      "has-header": {
+        "1": [
+          "/news/earth-mounds",
+          "/news/gsf-pilot-session",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/travel-dillema"
+        ],
+        "0": [
+          "/news/first-fellows",
+          "/news/lab-makeover",
+          "/news/sus-prize-renewed"
+        ]
+      },
+      "transliterated-has-header": {
+        "1": [
+          "/news/earth-mounds",
+          "/news/gsf-pilot-session",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/travel-dillema"
+        ],
+        "0": [
+          "/news/first-fellows",
+          "/news/lab-makeover",
+          "/news/sus-prize-renewed"
+        ]
+      },
+      "header-img": {
+        "../assets/img/blog/storm5.jpg": [
+          "/news/earth-mounds"
+        ],
+        "../assets/img/blog/pilotsession1.jpg": [
+          "/news/gsf-pilot-session"
+        ],
+        "../assets/img/blog/visitmartina1.jpg": [
+          "/news/martina-bustos"
+        ],
+        "../assets/img/blog/photoworkshop1.jpg": [
+          "/news/photo-workshop"
+        ],
+        "": [
+          "/news/sus-prize-renewed"
+        ],
+        "../assets/img/blog/traveldilemma.jpg": [
+          "/news/travel-dillema"
+        ]
+      },
+      "transliterated-header-img": {
+        "/assets/img/blog/storm5jpg": [
+          "/news/earth-mounds"
+        ],
+        "/assets/img/blog/pilotsession1jpg": [
+          "/news/gsf-pilot-session"
+        ],
+        "/assets/img/blog/visitmartina1jpg": [
+          "/news/martina-bustos"
+        ],
+        "/assets/img/blog/photoworkshop1jpg": [
+          "/news/photo-workshop"
+        ],
+        "": [
+          "/news/sus-prize-renewed"
+        ],
+        "/assets/img/blog/traveldilemmajpg": [
+          "/news/travel-dillema"
+        ]
+      },
+      "author": {
+        "arielle angel": [
+          "/news/earth-mounds",
+          "/news/lab-makeover",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed"
+        ],
+        "lee frankel-goldwater": [
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/travel-dillema"
+        ],
+        "ana laura dengo": [
+          "/news/martina-bustos"
+        ]
+      },
+      "transliterated-author": {
+        "arielle-angel": [
+          "/news/earth-mounds",
+          "/news/lab-makeover",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed"
+        ],
+        "lee-frankel-goldwater": [
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/travel-dillema"
+        ],
+        "ana-laura-dengo": [
+          "/news/martina-bustos"
+        ]
+      },
+      "slug": {
+        "/news/earth-mounds": [
+          "/news/earth-mounds"
+        ],
+        "/news/first-fellows": [
+          "/news/first-fellows"
+        ],
+        "/news/gsf-pilot-session": [
+          "/news/gsf-pilot-session"
+        ],
+        "/news/lab-makeover": [
+          "/news/lab-makeover"
+        ],
+        "/news/martina-bustos": [
+          "/news/martina-bustos"
+        ],
+        "/news/photo-workshop": [
+          "/news/photo-workshop"
+        ],
+        "/news/sus-prize-renewed": [
+          "/news/sus-prize-renewed"
+        ],
+        "/news/travel-dillema": [
+          "/news/travel-dillema"
+        ]
+      },
+      "transliterated-slug": {
+        "/news/earth-mounds": [
+          "/news/earth-mounds"
+        ],
+        "/news/first-fellows": [
+          "/news/first-fellows"
+        ],
+        "/news/gsf-pilot-session": [
+          "/news/gsf-pilot-session"
+        ],
+        "/news/lab-makeover": [
+          "/news/lab-makeover"
+        ],
+        "/news/martina-bustos": [
+          "/news/martina-bustos"
+        ],
+        "/news/photo-workshop": [
+          "/news/photo-workshop"
+        ],
+        "/news/sus-prize-renewed": [
+          "/news/sus-prize-renewed"
+        ],
+        "/news/travel-dillema": [
+          "/news/travel-dillema"
         ]
       },
       "tags": {
-        "g": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future"
-        ],
-        "s": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "f": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future"
-        ],
-        "l": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "o": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future"
-        ],
-        "b": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "a": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future"
-        ],
-        " ": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "u": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "t": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future"
+        "m": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
         ],
         "i": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "n": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "y": [
-          "/news/first-group-of-fellows-have-been-selected"
-        ],
-        "e": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "w": [
-          "/news/first-group-of-fellows-have-been-selected"
-        ],
-        "m": [
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
         ],
         "c": [
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
         ],
         "h": [
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ],
+        "a": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ],
+        "e": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        "l": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        " ": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        "b": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        "n": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
         ],
         "v": [
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
         ],
         "d": [
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        "o": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ],
+        "s": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        "g": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ],
+        "u": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
         ],
         "k": [
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ],
+        "t": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
         ],
         "r": [
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        "f": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
         ]
       },
       "transliterated-tags": {
-        "g": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future"
-        ],
-        "s": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "f": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future"
-        ],
-        "l": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "o": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future"
-        ],
-        "b": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "a": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future"
-        ],
-        "": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "u": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "t": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future"
+        "m": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
         ],
         "i": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "n": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "y": [
-          "/news/first-group-of-fellows-have-been-selected"
-        ],
-        "e": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
-        ],
-        "w": [
-          "/news/first-group-of-fellows-have-been-selected"
-        ],
-        "m": [
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
         ],
         "c": [
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
         ],
         "h": [
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ],
+        "a": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ],
+        "e": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        "l": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        "": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        "b": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        "n": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
         ],
         "v": [
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
         ],
         "d": [
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        "o": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ],
+        "s": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        "g": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ],
+        "u": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
         ],
         "k": [
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ],
+        "t": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
         ],
         "r": [
-          "/news/architecting-the-future",
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema",
+          "/news/travel-dillema"
+        ],
+        "f": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ]
+      },
+      "classes": {
+        "wanews all": [
+          "/news/earth-mounds",
+          "/news/photo-workshop"
+        ],
+        "gsfnews all": [
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/martina-bustos",
+          "/news/travel-dillema"
+        ],
+        "lnews all": [
+          "/news/lab-makeover"
+        ],
+        "spnews all": [
+          "/news/sus-prize-renewed"
+        ]
+      },
+      "transliterated-classes": {
+        "wanews-all": [
+          "/news/earth-mounds",
+          "/news/photo-workshop"
+        ],
+        "gsfnews-all": [
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/martina-bustos",
+          "/news/travel-dillema"
+        ],
+        "lnews-all": [
+          "/news/lab-makeover"
+        ],
+        "spnews-all": [
+          "/news/sus-prize-renewed"
+        ]
+      },
+      "category": {
+        "notes": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ]
+      },
+      "transliterated-category": {
+        "notes": [
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ]
+      },
+      "premise": {
+        "updates from the field: wadi attir": [
+          "/news/earth-mounds",
+          "/news/photo-workshop"
+        ],
+        "updates from the field: global sustainability fellows": [
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/martina-bustos",
+          "/news/travel-dillema"
+        ],
+        "the sustainability lab notes": [
+          "/news/lab-makeover"
+        ],
+        "the sustainability prize": [
+          "/news/sus-prize-renewed"
+        ]
+      },
+      "transliterated-premise": {
+        "updates-from-the-field-wadi-attir": [
+          "/news/earth-mounds",
+          "/news/photo-workshop"
+        ],
+        "updates-from-the-field-global-sustainability-fellows": [
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/martina-bustos",
+          "/news/travel-dillema"
+        ],
+        "the-sustainability-lab-notes": [
+          "/news/lab-makeover"
+        ],
+        "the-sustainability-prize": [
+          "/news/sus-prize-renewed"
+        ]
+      },
+      "featured": {
+        "1": [
+          "/news/earth-mounds",
+          "/news/lab-makeover",
+          "/news/martina-bustos"
+        ],
+        "0": [
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
+        ]
+      },
+      "transliterated-featured": {
+        "1": [
+          "/news/earth-mounds",
+          "/news/lab-makeover",
+          "/news/martina-bustos"
+        ],
+        "0": [
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
         ]
       },
       "month": {
-        "06": [
-          "/news/first-group-of-fellows-have-been-selected"
+        "08": [
+          "/news/earth-mounds",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
         ],
-        "02": [
-          "/news/architecting-the-future"
+        "09": [
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover"
+        ],
+        "07": [
+          "/news/martina-bustos"
         ]
       },
       "year": {
         "2014": [
-          "/news/first-group-of-fellows-have-been-selected",
-          "/news/architecting-the-future"
+          "/news/earth-mounds",
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover",
+          "/news/martina-bustos",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
         ]
       },
       "ticks": {
-        "1401791580.0": [
-          "/news/first-group-of-fellows-have-been-selected"
+        "1408602780.0": [
+          "/news/earth-mounds",
+          "/news/photo-workshop"
         ],
-        "1393482780.0": [
-          "/news/architecting-the-future"
+        "1409553180.0": [
+          "/news/first-fellows"
+        ],
+        "1411281180.0": [
+          "/news/gsf-pilot-session"
+        ],
+        "1410417180.0": [
+          "/news/lab-makeover"
+        ],
+        "1405924380.0": [
+          "/news/martina-bustos"
+        ],
+        "1407738780.0": [
+          "/news/sus-prize-renewed"
+        ],
+        "1406874780.0": [
+          "/news/travel-dillema"
         ]
       },
       "mixture_month_year": {
-        "06/2014": [
-          "/news/first-group-of-fellows-have-been-selected"
+        "08/2014": [
+          "/news/earth-mounds",
+          "/news/photo-workshop",
+          "/news/sus-prize-renewed",
+          "/news/travel-dillema"
         ],
-        "02/2014": [
-          "/news/architecting-the-future"
+        "09/2014": [
+          "/news/first-fellows",
+          "/news/gsf-pilot-session",
+          "/news/lab-makeover"
+        ],
+        "07/2014": [
+          "/news/martina-bustos"
         ]
       },
       "mixture_date": {
-        "2014-06-03t10:33:00": [
-          "/news/first-group-of-fellows-have-been-selected"
+        "2014-08-21t06:33:00z": [
+          "/news/earth-mounds",
+          "/news/photo-workshop"
         ],
-        "2014-02-27t06:33:00": [
-          "/news/architecting-the-future"
+        "2014-09-01t06:33:00z": [
+          "/news/first-fellows"
+        ],
+        "2014-09-21t06:33:00z": [
+          "/news/gsf-pilot-session"
+        ],
+        "2014-09-11t06:33:00z": [
+          "/news/lab-makeover"
+        ],
+        "2014-07-21t06:33:00z": [
+          "/news/martina-bustos"
+        ],
+        "2014-08-11t06:33:00z": [
+          "/news/sus-prize-renewed"
+        ],
+        "2014-08-01t06:33:00z": [
+          "/news/travel-dillema"
         ]
       }
     }
