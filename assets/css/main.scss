@@ -1,12 +1,12 @@
 /* Colors */
 
 $black: #332f38; /* font color and nav hover */
-$dark-grey: #4a3130; 
-$mid-grey: #866564; /* nav */
-$light-grey: #9d7f7e; /* highlight font */
+$dark-grey: #423f41; 
+$mid-grey: #5b5a5c; /* nav */
+$light-grey: #9d9d9d; /* highlight font */
 $white: #f3f3f3; /* background */
 $yellow: #3c7962; /* dark green */
-$orange: #C5533A; /* boxes and highlights */
+$orange: #ec7113; /* boxes and highlights */
 $beige: #e6c7a4; 
 
 /* mixins */
@@ -120,6 +120,10 @@ html[xmlns] .clearfix {
 	margin-left: 16.6667%;
 }
 
+.push-third {
+	margin-left: 33.3333%;
+}
+
 /* basics */
 
 hmtl, body {
@@ -172,6 +176,10 @@ img.round {
 	float: right;
 	width: 50%;
 	margin: 1em 0 1em 2em;
+}
+
+.text-right {
+	text-align: right;
 }
 
 .button {
@@ -270,6 +278,16 @@ hr.light-divider {
 	border-top: 1px solid darken($white, 10%);
 }
 
+hr.home-spacer {
+	width: 100%;
+	margin: 4em 0;
+	display: block;
+	height: 0;
+	border: none;
+	backgorund: transparent;
+	border-top: 1px solid darken($white, 10%);
+}
+
 .slider-module {
 	height: 1%;
 	overflow: hidden;
@@ -332,7 +350,7 @@ hr.light-divider {
 			float: left; 
 			height: 20em; 
 			width: 44.55em;
-			margin-right: 1em;
+			overflow: hidden;
 			position: relative;
 			background: #fff;
 			.caption {
@@ -428,6 +446,19 @@ hr.light-divider {
 }
 
 .news-single {
+	img {
+		margin: 1em auto;
+		display: block;
+	}
+	cite {
+		margin-top: -1em;
+		font-size: 0.75em;
+		color: $light-grey;
+		font-style: italic;
+		margin-bottom: 1.5em;
+		display: block;
+		text-align: center;
+	}
 	.image-left {
 		float: left;
 		margin: 0.5em 1.5em 1em 0;
@@ -582,7 +613,7 @@ hr.light-divider {
 	padding-top: 13.125em;
 	position: relative;
 	min-height: 25em;
-	h2 {
+	h2, h3 {
 		margin: 0;
 		font-size: 2.75em;
 		letter-spacing: 0.1em;
@@ -595,6 +626,12 @@ hr.light-divider {
 			font-size: 60%;
 			opacity: 0.8;
 		}
+	}
+	h3 {
+		margin-top: 3em;
+		text-transform: none;
+		font-size: 1.5em;
+		line-height: 1.6;
 	}
 	.floating-page-nav {
 		text-align: right;
@@ -639,6 +676,10 @@ hr.light-divider {
 	}
 }
 
+.page-header#home {
+	padding-top: 10em;
+}
+
 #about {
 	background: url(../img/about-bg.jpg) center center no-repeat;
 	background-size: cover;
@@ -658,9 +699,11 @@ hr.light-divider {
 }
 
 #home {
-	background: url(../img/home-bg.jpg) center center no-repeat;
+	background: transparent;
 	background-size: cover;
 	background-attachment: fixed;
+	height: 100vh;
+	overflow: hidden;
 }
 
 #connect {
@@ -710,11 +753,10 @@ hr.light-divider {
 		margin-bottom: 3.75em;
 		border-bottom: 1px solid $light-grey;
 		.home-project-link a {
-			margin-bottom: 4.5em;
+			margin-top: 4em;
 			display: inline-block;
 		}
 		.targettable {
-			padding-bottom: 3.75em;
 		}
 		.targettable:last-child {
 			padding-bottom: 0;
@@ -1006,6 +1048,13 @@ hr.light-divider {
 	margin-top: 1.5em;
 }
 
+.bio-image-modal {
+	float: left;
+	width: 25%;
+	margin: 0 2em 2em 0;
+	border-radius: 50%;
+}
+
 blockquote {
 	font-size: 1.25em;
 	font-style: italic;
@@ -1149,10 +1198,18 @@ blockquote {
 /* dividers */
 
 .link-divider {
-	padding: 2.5em 0;
+	padding: 2em 0;
 	margin-bottom: 2.5em;
-	background: $black;
-	color: #fff;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  $white 0%, darken($white, 5%) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$white), color-stop(100%,darken($white, 5%))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  $white 0%,darken($white, 5%) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  $white 0%,darken($white, 5%) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  $white 0%,darken($white, 5%) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  $white 0%,darken($white, 5%) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$white', endColorstr='darken($white, 5%)',GradientType=0 ); /* IE6-9 */
+	border-bottom: 1px solid darken($white, 10%);
+	color: $black;
 	p {
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
@@ -1163,6 +1220,12 @@ blockquote {
 			padding-bottom: 0.25em;
 			border-bottom: 1px solid $yellow;
 		}
+	}
+}
+
+.project-content {
+	.link-divider {
+		width: 71.8889%;
 	}
 }
 

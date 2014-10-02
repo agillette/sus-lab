@@ -1,4 +1,24 @@
-<article class="scroll-target clearfix" id="founders">
+{% block content %}
+	<header class="page-header" id="about">
+		<div class="header-overlay"></div>
+		<div class="row clearfix">
+			<div class="column two-thirds">
+				<h2>Who We Are</h2>
+			</div>
+			<div class="column one-quarter push-1">
+				<nav class="floating-page-nav">
+					<ul>
+						<li><a href="#founders">Founder</a></li>
+						<li><a href="#team">The Team</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section class="page-content" id="team-content">
+		<div class="row clearfix">
+			<div class="column two-thirds">
+				<article class="scroll-target clearfix" id="founders">
 					<h3>The Lab's founder, Dr. Michael Ben-Eli</h3>
 					<p class="intro">Prior to founding The Lab, Dr. Michael Ben-Eli worked as an international management consultant, pioneering applications of Systems Thinking and Cybernetics in management and organization. Over the years, he worked on synthesizing strategy issues in many parts of the world and in diverse institutional settings, ranging from small high technology firms to multinational enterprises, manufacturing companies, financial institutions, health care and educational organizations, government agencies, NGOs, and international multilateral organizations.</p>
 					<img class="article-img-left" src="../assets/img/AboutMichael.jpg">
@@ -574,3 +594,21 @@
 						</div>
 					</div>
 				</article>
+			</div>
+		</div>
+	</section>
+	<div class="overlay">
+		<div class="modal"></div>
+		<a href="#" class="close-modal"><i class="fa fa-times"></i></a>
+	</div>
+{% endblock %}
+{% block scripts %}
+<script type="text/javascript" src="{{ "jquery.mixitup.min.js" | asset_url }}"></script>
+<script type="text/javascript" src="{{ "filterteams.min.js" | asset_url }}"></script>
+<script type="text/javascript" src="{{ "jquery.tinycarousel.min.js" | asset_url }}"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#cp-slider').tinycarousel();
+	});
+</script>
+{% endblock %}

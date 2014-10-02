@@ -21,36 +21,38 @@
 			<li><a href="../approach.html">Approach</a></li>
 			<li><a href="../projects.html">Projects</a></li>
 			<li><a href="../news.html">News</a></li>
+			<li><a href="../team.html">Who We Are</a></li>
 			<li><a href="../connect.html">Connect</a></li>
 		</ul>
 	</nav>
 </header>
 		<!-- Content block, child page inject content -->
 		 
-	<header class="page-header" id="home">
+	<header class="page-header" id="home" style="background:transparent;overflow:hidden;">
+		<video autoplay loop style="position: absolute; z-index: -1; top: 50%; left: 0px; transform: translateY(-50%); min-width: 100%; min-height: 100%;">
+			<source src="assets/img/suslabloop.webm" type="video/webm">
+			<source src="assets/img/suslabloop.ogv" type="video/ogg">
+			<source src="assets/img/suslabloop.mp4" type="video/mp4">
+			Your browser does not support the video tag.    
+		</video>
 		<div class="header-overlay"></div>
 		<div class="row clearfix">
 			<div class="column two-thirds">
 				<h2>The Sustainability Laboratory</h2>
 			</div>
-			<!--<div class="column one-quarter push-1">
-				<nav class="floating-page-nav">
-					<ul>
-						<li><a href="#mission">What we do</a></li>
-						<li><a href="#founders">How we do it</a></li>
-						<li><a href="#team">Our Impacts</a></li>
-					</ul>
-				</nav>
-			</div>-->
+		</div>
+		<div class="row clearfix">
+			<div class="column two-thirds push-third text-right">
+				<h3>Transforming world society to a sustainable basis is the most significant challenge of our time.</h3>
+			</div>
 		</div>
 	</header>
 	<section class="home-content">
 		<div class="row clearfix">
 			<div class="column two-thirds push-2">
 				<article class="home-section">
-					<p class="intro">Transforming world society to a sustainable basis is the most significant challenge of our time.</p>
-					<p>This challenge is unprecedented in scope, calling for a fresh vision, accounting for the whole planet and all of humankind. </p>
-					<p>At The Sustainability Laboratory, we work to address urgent sustainability challenges facing the planet by creating and demonstrating effective tools for catalyzing radical change.</p>
+					<p>Founded on the belief that effective responses will not likely emerge from the same methods and mechanisms that perpetuate the existing crisis, The Lab is being organized to foster bold experimentation with untested ideas, approaches and technologies that transcend prevailing conventions.</p>
+					<p>The Lab's work will focus on four interrelated areas of activity, essential for catalyzing deep change: Development Projects, Technology Innovations, Green Economics, and Education. <a href="assets/img/about.html">Read More &raquo;</a></p>
 				</article>
 			</div>
 		</div>
@@ -96,7 +98,7 @@
 						</div>
 						<div class="column one-half">
 							<div class="in-from-right text-center">
-								<img src="assets/img/evolution.png" width="50%" alt="" />
+								<img src="assets/img/helix.png" width="50%" alt="" />
 							</div>
 						</div>
 					</div>
@@ -167,6 +169,7 @@
 					<div class="row clearfix targettable text-center home-project-link" id="wadi-attir-link">
 						<a href="projects.html#wadi-attir">More about Project Wadi Attir &raquo;</a>
 					</div>
+					<hr class="home-spacer">
 					<div class="row clearfix targettable outset-row project-intro" id="gsf-intro">
 						<div class="column one-half">
 							<div class="in-from-left">
@@ -195,6 +198,7 @@
 					<div class="row clearfix targettable text-center home-project-link" id="gsf-link">
 						<a href="projects.html#gsf">More about the Global Sustainability Fellows Program &raquo;</a>
 					</div>
+					<hr class="home-spacer">
 					<div class="row clearfix targettable outset-row project-intro" id="sp-intro">
 						<div class="column one-half">
 							<div class="in-from-left">
@@ -293,7 +297,7 @@
 			</div>
 		</div>
 	</section>
-	<a id="down-arrow" class="bounce" href="#"><i class="fa fa-arrow-down"></i></a>
+	<!--<a id="down-arrow" class="bounce" href="#"><i class="fa fa-arrow-down"></i></a>-->
 
 		<!-- Script block allowing child pages to inject their own scripts -->
 		<footer id="mainfoot">
@@ -339,7 +343,21 @@
 		<script src="assets/scripts/typed.min.js"></script>
 		
 <script type="text/javascript">
+	var quoteIndex = 0;
+	quoteArray = ["Transforming world society to a sustainable basis is the most significant challenge of our time.", "This challenge is unprecedented in scope, calling for a fresh vision, accounting for the whole planet and all of humankind.", "At The Sustainability Laboratory, we work to address urgent sustainability challenges facing the planet by creating and demonstrating effective tools for catalyzing radical change."];
+	function doQuotes() {
+		console.log("doing quotes");
+		if(quoteIndex < 3)
+		{
+			$('#home h3').fadeOut('normal', function(){
+				$('#home h3').html(quoteArray[quoteIndex]).fadeIn();
+			});
+			quoteIndex++;
+		}
+	}
 	$(document).ready(function() {
+		setTimeout(function(){ doQuotes(); }, 4000);
+		setTimeout(function(){ doQuotes(); }, 8000);
 		$(window).scroll(function() {
 			$('.targettable').each(function() {
 				var target = $(this).attr('id');
@@ -364,7 +382,6 @@
 	});
 </script>
 
-		<script src="app.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$('.floating-page-nav a').click(function(e){

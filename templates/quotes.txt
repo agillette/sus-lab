@@ -1,0 +1,6 @@
+		var quotes = ["Transforming world society to a sustainable basis is the most significant challenge of our time.", "This challenge is unprecedented in scope, calling for a fresh vision, accounting for the whole planet and all of humankind.", "At The Sustainability Laboratory, we work to address urgent sustainability challenges facing the planet by creating and demonstrating effective tools for catalyzing radical change."];
+		var qI = 0;
+		setTimeout(function(){
+			$('#home h3').fadeOut().html(quotes[qI]).fadeIn();
+			qI++;
+		}, 3000);
